@@ -1,0 +1,79 @@
+body {
+  background: white;
+  }
+  div {
+    align-self: center;
+  }
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .container {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  height: 300px;
+  margin-top: -200px
+  width: 600px;
+  margin-left: -175px
+  }
+
+  h3 {
+    font-size: 12px;
+    color: #A1A1A1;
+  }
+  .button {
+      background-color: #F4F4F4;
+      border: none;
+      color: #787878;
+      padding: 10px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      /*margin: 6px 10px;*/
+      position:absolute;
+      top: 63%;
+      left: 39%;
+  }
+  .button2 {
+    background-color: #F4F4F4;
+    border: none;
+    color: #787878;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    /*margin: 6px 10px;*/
+    position:absolute;
+    top: 63%;
+    left: 52%;
+  }
+  .bottom-bar {
+    height: 30px;
+    width: 1300px;
+    background-color: #F4F4F4;
+    border: none;
+    color: #787878;
+    padding: 10px 5px;*/
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    position:absolute;
+    top: 93%;
+    left: 0%;
+  }
+  a:link {
+    text-decoration: none;
+    color: #787878;
+  }
+  a:visited {
+    text-decoration: none
+    color:#787878
+  }
+}
