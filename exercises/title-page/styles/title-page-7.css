@@ -1,28 +1,35 @@
 body {
   background: linear-gradient(to bottom,	#800000 0%,	#800000 50%,#D9D942 50%,#D9D942 50%,#D9D942 100%);
-  }
+}
 
-  div {
-      background-color: #E3DFD7;
-      width: 600px;
-      padding: 50px;
-      margin: 300px;
-      margin-top: 100;
-  }
-  h1 {
-    font-family: "Impact", Times;
-    text-align: center;
-    font-size: 50px;
-  }
-  h2 {
-    font-family: "Impact", Times;
-    text-align: center;
-    font-size: 35px;
-  }
-  a:link {
-    color: #000000;
-  }
-  a:visited {
-    color: #000000;
-  }
+div {
+    background-color: #E3DFD7;
+    width: 600px;
+    padding: 50px;
+    margin: 300px;
+    margin-top: 100;
+}
+
+h1 {
+  font-family: "Impact", Times;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Impact", Times;
+  text-align: center;
+  font-size: 35px;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+h1,h2,h3 {
+  background-color: dodgerblue;
 }

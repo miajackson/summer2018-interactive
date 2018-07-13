@@ -1,28 +1,75 @@
-body {
-  background: linear-gradient(to bottom,	#800000 0%,	#800000 50%,#D9D942 50%,#D9D942 50%,#D9D942 100%);
-  }
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 
-  div {
-      background-color: #E3DFD7;
-      width: 600px;
-      padding: 50px;
-      margin: 300px;
-      margin-top: 100;
-  }
-  h1 {
-    font-family: "Impact", Times;
-    text-align: center;
-    font-size: 80px;
-  }
-  h2 {
-    font-family: "Impact", Times;
-    text-align: center;
-    font-size: 20px;
-  }
-  a:link {
-    color: #000000;
-  }
-  a:visited {
-    color: #000000;
-  }
+
+body {
+  background: linear-gradient(to bottom, #800000 0%,	#800000 50%,#D9D942 50%,#D9D942 50%,#D9D942 100%);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  align-items: center;
+  display: inline;
+  position: relative;
+  font: 75px Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color: rgba(0,0,255,0.5);
+}
+
+h1:after {
+  width: 600px;
+  content: "BREAKDOWNS";
+  position: absolute; left: 10px; top: 5px;
+  color: rgba(255,0,0,0.5);
+}
+
+#title-page-links {
+  display: inline-block;
+  background-color: #800000;
+  width: 1000px;
+  height: 200px;
+}
+
+div {
+    background-color: #E3DFD7;
+    width: 800px;
+    height: 400px
+    padding: 50px;
+    margin: 40px;
+    margin-top: 100;
+}
+
+h2 {
+  font-family: "Impact", Times;
+  text-align: center;
+  font-size: 60px;
+}
+
+h3 {
+  align-items: center;
+  display: inline;
+	position: relative;
+  font: 75px Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color: rgba(0,0,255,0.5);
+}
+
+h3:after {
+  width: 600px;
+  content: "SPIEGELMAN";
+	position: absolute; left: 10px; top: 5px;
+  color: rgba(255,0,0,0.5);
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
 }
