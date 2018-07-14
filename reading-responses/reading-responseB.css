@@ -1,4 +1,18 @@
 body {
-  background-color: turquoise;
+  background-color: #a5c7ff;
   font-family: "Courier", Times, serif
+}
+
+h2 {
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+
+h2:after {
+	content: "Hello";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);
 }
