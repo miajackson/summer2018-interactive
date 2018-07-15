@@ -3,16 +3,16 @@ body {
   font-family: "Courier", Times, serif
 }
 
-h2 {
+h3 {
 	display: inline;
 	position: relative;
-	font: 200px Helvetica, Sans-Serif;
+	font: 80px Helvetica, Sans-Serif;
 	letter-spacing: -5px;
 	color: rgba(0,0,255,0.5);
 }
 
-h2:after {
-	content: "Hello";
-	position: absolute; left: 10px; top: 5px;
+h3:after {
+	content: "Reading Response B";
+	position: absolute; left: 5px; top: 5px;
 	color: rgba(255,0,0,0.5);
 }

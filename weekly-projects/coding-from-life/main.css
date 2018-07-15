@@ -29,9 +29,9 @@ body {
 	background-color: black;
 	width: 100%;
 	position:absolute;
-	height: 15px;
+	height: 13px;
 	width: 400px;
-	bottom: 50%;
+	bottom: 66%;
 	transform: rotate(-30deg);
 }
 
@@ -94,6 +94,18 @@ body {
 	top:19.6%;
 	left: 49.3%;
 	opacity: 0.5;
+}
+
+#top-right-shadow {
+	width: 60.5px;
+	height: 2px;
+	background: #3a9e4b;
+	color: transparent;
+	opacity: .4;
+	left: 50.4%;
+	top:27.9%;
+	transform: rotate(79deg);
+	box-shadow: 2px 4px 20px 4px #848484;
 }
 
 #top-cap {
@@ -161,12 +173,13 @@ body {
 }
 
 #stick {
+	left: 30%;
+	top: 52%;
 	width: 200px;
-	height: 5px;
-	background: #754c19;
-	left: 36%;
-	top: 57%;
-	opacity: 0.9;
+	height: 120px;
+	border: solid 4px #000;
+	border-color: #876b3f transparent transparent transparent;
+	border-radius: 50%/30px 30px 0 0;
 	transform: rotate(67deg);
 }
 
@@ -219,40 +232,113 @@ img {
 
 #line-1 {
 	width: 2px;
-	height: 90px;
+	height: 86px;
 	background: #a5a4a4;
-	left: 47%;
-	top: 57%;
+	left: 46.3%;
+	top: 57.6%;
 }
 
 #line-2 {
 	width: 2px;
-	height: 90px;
+	height: 86px;
 	background: #a5a4a4;
-	left: 48%;
-	top: 57%;
+	left: 47.3%;
+	top: 57.6%;
 }
 
 #line-3 {
 	width: 2px;
-	height: 90px;
+	height: 86px;
 	background: #a5a4a4;
-	left: 49%;
-	top: 57%;
+	left: 48.3%;
+	top: 57.6%;
 }
 
 #line-4 {
 	width: 2px;
-	height: 90px;
+	height: 86px;
 	background: #a5a4a4;
-	left: 50%;
-	top: 57%;
+	left: 49.3%;
+	top: 57.6%;
 }
 
 #line-5 {
 	width: 2px;
-	height: 90px;
+	height: 86px;
 	background: #a5a4a4;
-	left: 51%;
-	top: 57%;
+	left: 50.3%;
+	top: 57.6%;
+}
+
+#line-6 {
+	width: 2px;
+	height: 86px;
+	background: #a5a4a4;
+	left: 51.3%;
+	top: 57.6%;
+}
+
+#line-7 {
+	width: 2px;
+	height: 86px;
+	background: #a5a4a4;
+	left: 52.3%;
+	top: 57.6%;
+}
+
+.hexagon {
+  position: relative;
+  width: 60px;
+  height: 34.64px;
+  background-color: #b0b4ba;
+  margin: 17.32px 0;
+}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 17.32px solid #b0b4ba;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 17.32px solid #b0b4ba;
+}
+
+#hexagon-1 {
+	top: 40%;
+	left: 40%;
+	transform: rotate(90deg);
+}
+
+#hexagon-2 {
+	top: -1%;
+	left: 65%;
+	transform: rotate(90deg);
+}
+
+#hexagon-3 {
+	top: 2.5%;
+	left: 14%;
+	transform: rotate(90deg);
+}
+
+#hexagon-4 {
+	top: -80%;
+	left: 14%;
+	transform: rotate(90deg);
+}
+
+#hexagon-5 {
+	top: -91.4%;
+	left: -12%;
+	transform: rotate(90deg);
 }
