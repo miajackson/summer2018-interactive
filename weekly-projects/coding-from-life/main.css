@@ -16,10 +16,10 @@ body {
 }
 
 #soccer-ball {
+	background: linear-gradient(to top,#686868, #ffffff);
 	width: 200px;
 	height: 200px;
 	overflow: hidden;
-	background: ghostwhite;
 	border-radius: 50%;
 	left: 27%;
 	top: 35%;
@@ -27,10 +27,12 @@ body {
 
 #stripe {
 	background-color: black;
-	width: 100%;
-	position:absolute;
-	height: 13px;
 	width: 400px;
+	height: 10px;
+	position: absolute;
+	border: solid 2px #000;
+	border-color: black transparent transparent transparent;
+	border-radius: 70px 50px 0 0;
 	bottom: 66%;
 	transform: rotate(-30deg);
 }
@@ -152,7 +154,7 @@ body {
 	transform: rotate(5deg);
 }
 
-#vase-top {
+/*#vase-top {
 	width: 70px;
 	height: 20px;
 	background: #cecece;
@@ -170,7 +172,7 @@ body {
 	left: 45.5%;
 	top: 73%;
 	opacity: 0.9;
-}
+}*/
 
 #stick {
 	left: 30%;
@@ -232,60 +234,80 @@ img {
 
 #line-1 {
 	width: 2px;
-	height: 86px;
+	height: 100px;
 	background: #a5a4a4;
 	left: 46.3%;
-	top: 57.6%;
+	top: 56.3%;
 }
 
 #line-2 {
 	width: 2px;
-	height: 86px;
+	height: 105px;
 	background: #a5a4a4;
 	left: 47.3%;
-	top: 57.6%;
+	top: 56.3%;
 }
 
 #line-3 {
 	width: 2px;
-	height: 86px;
+	height: 100px;
 	background: #a5a4a4;
 	left: 48.3%;
-	top: 57.6%;
+	top: 57.2%;
 }
 
 #line-4 {
 	width: 2px;
-	height: 86px;
+	height: 100px;
 	background: #a5a4a4;
 	left: 49.3%;
-	top: 57.6%;
+	top: 57.2%;
 }
 
 #line-5 {
 	width: 2px;
-	height: 86px;
+	height: 100px;
 	background: #a5a4a4;
 	left: 50.3%;
-	top: 57.6%;
+	top: 57.2%;
 }
 
 #line-6 {
 	width: 2px;
-	height: 86px;
+	height: 101px;
 	background: #a5a4a4;
 	left: 51.3%;
-	top: 57.6%;
+	top: 56.6%;
 }
 
 #line-7 {
 	width: 2px;
-	height: 86px;
+	height: 100px;
 	background: #a5a4a4;
 	left: 52.3%;
-	top: 57.6%;
+	top: 56.6%;
 }
 
+#vase-bottom {
+	width: 55px;
+	height: 10px;
+	border: 5px solid #adadad;
+	background: rgba(206, 206, 206, .6);
+	border-radius: 50%;
+	left: 46%;
+	top: 72.5%;
+}
+
+#vase-top {
+	width: 55px;
+	height: 10px;
+	border: 5px solid #adadad;
+	background: transparent;
+	border-radius: 50%;
+	left: 45.5%;
+	top: 54%;
+}
+/*
 .hexagon {
   position: relative;
   width: 60px;
@@ -342,3 +364,4 @@ img {
 	left: -12%;
 	transform: rotate(90deg);
 }
+*/
