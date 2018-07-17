@@ -1,7 +1,7 @@
 img {
-  display: block;
+  display: inline-block;
   width: 100px;
   height: 200px;
   top: 60%;
-  left 70%;
+  left: 70%;
 }
