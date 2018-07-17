@@ -1,46 +1,7 @@
-#pellegrino {
-	background-color: #3a9e4b;
-	width: 30px;
-	border-radius: 20%;
-	box-shadow: 0px 0px 2px 2px #848484;
-	position: absolute;
-	height: 180px;
-	width: 70px;
-	top:50%;
-	left: 90%;
-	opacity: 0.5;
-}
-
-#top {
-	border-bottom: 80px solid #3a9e4b;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	height: 0;
-	width: 16px;
-	top:45%;
-	left: 90%;
-	opacity: 0.5;
-}
-
-#top-right-shadow {
-	width: 60.5px;
-	height: 2px;
-	background: #3a9e4b;
-	color: transparent;
-	opacity: .4;
-	left: 50.4%;
-	top:27.9%;
-	transform: rotate(79deg);
-	box-shadow: 2px 4px 20px 4px #848484;
-}
-
-#top-cap {
-	background-color: #e0e0e0;
-	width: 30px;
-	border-radius: 20%;
-	position: absolute;
-	height: 21px;
-	width: 30px;
-	top:19%;
-	left: 50.2%;
+img {
+  display: block;
+  width: 100px;
+  height: 200px;
+  top: 60%;
+  left 70%;
 }
