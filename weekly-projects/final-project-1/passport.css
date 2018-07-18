@@ -1,0 +1,32 @@
+body {
+  background-image: url("passport.jpg");
+}
+
+img {
+  width: 418px;
+  height: auto;
+  position: static;
+  left: 20%;
+  top:50%;
+}
+
+h1 {
+  position:static;
+  font-size: 70px;
+  text-align: center;
+  font-family: "Times New Roman", arial;
+  top: 20%;
+}
+
+#text {
+  border: white;
+  background-color: white;
+  padding: white .2px;
+  margin: -10px;
+}
+
+#zealand {
+  position: relative;
+  width: 100px;
+  left: 80%;
+}
