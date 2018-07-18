@@ -1,0 +1,49 @@
+body {
+  background-color: #123879;
+}
+
+p {
+  font-family: monospace;
+  white-space: pre;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#one {
+  transform-origin: 350px 150px;
+  transform: rotate(-90deg);
+}
+
+#two {
+  position: fixed;
+  top: 5%;
+  left: 18%;
+}
+
+#three {
+  position: fixed;
+  transform-origin: 50%;
+  transform-origin:490px 500px;
+  transform: rotate(90deg);
+}
+
+#four {
+  position: fixed;
+  top: 80%;
+  left: 18%;
+}
+
+#five {
+  position: fixed;
+  transform-origin: 50%;
+  transform-origin:400px 50px;
+  transform: rotate(-90deg);
+}
+
+#six {
+  font-size: 15px;
+  position: fixed;
+  top: 45%;
+  left: 17%;
+}

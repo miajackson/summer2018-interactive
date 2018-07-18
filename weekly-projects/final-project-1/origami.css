@@ -24,11 +24,11 @@ h1 {
 p {
   text-align: left;
   margin: 0;
-  text-transform: lowercase;
-  font-size: 10pt;
+  font-size: 12pt;
   font-weight: 900;
   width: 50%;
   display: none;
+  top: -100px;
 }
 
 #table {
@@ -41,4 +41,26 @@ p {
 #centeralign {
 	display: table-cell;
 	vertical-align: middle;
+  position: relative;
+  top:-10px;
+}
+
+
+a:link {
+  font-family: 'Oxygen Mono', monospace;
+  white-space: pre;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0,0,255,0);
+  text-decoration: none;
 }

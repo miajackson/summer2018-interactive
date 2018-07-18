@@ -55,11 +55,11 @@ h2 {
   font-size: 20px;
 }
 
-#textbook {
+#blueprints {
   display: inline;
   position: relative;
   top: -120px;
-  left: 320px;
+  left: 305px;
   font-family: monospace;
   white-space: pre;
   font-size: 20px;

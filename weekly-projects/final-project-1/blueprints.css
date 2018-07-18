@@ -1,0 +1,46 @@
+h1 {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 60px;
+}
+
+img {
+  position: relative;
+  width: 550px;
+}
+
+#art {
+  position:absolute;
+  top: 26%;
+}
+
+#beinecke {
+  position:absolute;
+  top: 90%;
+  left:0%;
+}
+
+#architecture {
+  position:absolute;
+  top: 90%;
+  left:50%;
+}
+
+a:link {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0,0,255,0);
+  text-decoration: none;
+}

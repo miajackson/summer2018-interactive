@@ -1,0 +1,17 @@
+a:link {
+  /*font-family: monospace;
+  white-space: pre;*/
+  font-size:15px;
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0,0,255,0);
+  text-decoration: none;
+}
