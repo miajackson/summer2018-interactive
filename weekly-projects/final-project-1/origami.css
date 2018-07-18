@@ -1,6 +1,9 @@
 img {
   position: relative;
-  width: 600px;
+  left: 50%;
+  top: 50%;
+  width: 30px;
+  height: 20px;
 }
 
 body, html {
