@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="origami.css">
+    <title> origami </title>
+  </head>
+  <body>
+    <div id="table">
+  <div id="centeralign">
+    <p> ori= "folding", gami= "paper."
+    Arose from Europe, China and Japan.
+    Adds a new message from an ordinary sheet of paper.</p>
+    <h1>Origami.</h1>
+  </div>
+</div>
+    <img src="origami.gif" style="position:absolute; top:40%; left:18%;">
+    <a href="https://cssnewbie.com/10-beautiful-css-text-effects/#.W069JNhKjVr">source</a>
+    <a href="final-project-1.html">back</a>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+    function typeEffect(element, speed) {
+	var text = $(element).text();
+	$(element).html('');
+
+	var i = 0;
+	var timer = setInterval(function() {
+					if (i < text.length) {
+						$(element).append(text.charAt(i));
+						i++;
+					} else {
+						clearInterval(timer);
+					}
+				}, speed);
+}
+
+$( document ).ready(function() {
+  var speed = 75;
+  var delay = $('h1').text().length * speed + speed;
+  typeEffect($('h1'), speed);
+  setTimeout(function(){
+    $('p').css('display', 'inline-block');
+    typeEffect($('p'), speed);
+  }, delay);
+});
+</script>
+  </body>
+</html>
