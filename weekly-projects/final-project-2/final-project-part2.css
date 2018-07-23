@@ -1,0 +1,143 @@
+
+html{
+  cursor: move;
+}
+body{
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+}
+input{
+  display: none;
+}
+#container{
+  position: relative;
+  margin: auto;
+  margin-top: 10vmin;
+  width: 80vmin;
+  height: 80vmin;
+  perspective: 120vmin;
+  pointer-events: visible;
+  transform-style: preserve-3d;
+}
+#container *{
+  position: absolute;
+}
+#container *:not(path){
+  transform-style: preserve-3d;
+}
+label{
+  display: block;
+  background-size: 100% 100%;
+}
+#wrap{
+  transform-origin: 40vmin 40vmin;
+  transform: rotateX(60deg) rotate(30deg);
+}
+#ground{
+  transform: translateZ(-20vmin);
+  width: 55vmin;
+  height: 55amvmin;
+  left: 10vmin;
+  top: 10vmin;
+  background-color: #575;
+}
+#house{
+  left: 5vmin;
+  top: 5vmin;
+}
+
+#walls > div:nth-child(-n+2){
+  width: 50vmin;
+  height: 30vmin;
+}
+#walls > div:nth-of-type(1){
+  transform: translate3d(-25vmin,10vmin,15vmin) rotate(90deg) rotateX(-90deg);
+}
+#walls > div:nth-of-type(2){
+  transform: translate3d(25vmin,10vmin,15vmin) rotate(-90deg) rotateX(-90deg);
+}
+#walls > svg{
+  width: 50vmin;
+  height: 55vmin;
+}
+#walls > svg:nth-of-type(1){
+  transform: translate3d(0,22.5vmin,27.5vmin) rotateX(-90deg);
+}
+#walls > svg:nth-of-type(2){
+  transform: translate3d(0,-27.5vmin,27.5vmin) rotate(180deg) rotateX(-90deg);
+  pointer-events: none;
+}
+
+#roof > *:nth-child(-n+2){
+  width: 50vmin;
+  height: 35.36vmin;
+}
+#roof > *:nth-child(1){
+  transform: translate3d(-12.5vmin,7.32vmin,42.5vmin) rotate(90deg) rotateX(-45deg);
+}
+#roof > *:nth-child(2){
+  transform: translate3d(12.5vmin,7.32vmin,42.5vmin) rotate(-90deg) rotateX(-45deg);
+  pointer-events: none;
+}
+.open > * > *{
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+#walls > .open > div:nth-child(1){
+  transform: translate3d(18vmin,50vmin,26vmin) rotateX(-90deg);
+}
+#door{
+  width: 14vmin;
+  height: 26vmin;
+  transform-origin: left;
+}
+
+#walls > .open > div:nth-child(2){
+  transform: translate3d(22vmin,0vmin,25vmin) rotate(180deg) rotateX(-90deg);
+}
+#walls > .open > div:nth-child(3){
+  transform: translate3d(28vmin,0vmin,25vmin) rotate(180deg) rotateX(-90deg) scaleX(-1);
+}
+#window1,#window2{
+  width: 15vmin;
+  height: 15vmin;
+  transform-origin: right;
+}
+
+#roof > .open > div{
+  transform: translate3d(25vmin,30vmin,55vmin) rotate(-90deg) rotateX(-45deg) translateY(15vmin);
+}
+
+#window3{
+  width: 10vmin;
+  height: 15vmin;
+}
+
+#D:checked ~ #container #door,
+#W1:checked ~ #container #window1,
+#W2:checked ~ #container #window2{
+  transform: rotateY(-40deg);
+}
+#W3:checked ~ #container #window3{
+  transform: rotateX(40deg);
+}
+
+#door{
+  background-image: url(http://www.fensterbau-kohlmann.de/Media/Bilder/Tuer_Holz/TuerHolz6.jpg);
+}
+label:not(#door){
+  background-image: url(https://s13.postimg.org/wqmvcrd6v/window.png);
+}
+#walls > div:nth-child(-n+2){
+  background-color: #ddd;
+  background-size: 10%;
+}
+#roof > div:nth-child(1){
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/75/d4/28/75d42817a3c36f0da00b9ef37b6bcafa.jpg);
+  background-size: 20%;
+}
+#roof > svg > path{
+  fill: url(#pattern);
+}
