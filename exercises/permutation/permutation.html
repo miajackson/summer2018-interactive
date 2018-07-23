@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Permutation Workshop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="permutation.css">
+  <style>
+  </style>
+</head>
+<body>
+
+	<img id="something" src="" />
+	<h1 id="text"></h1>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		// Arrays
+		var myImageArray = ["images/1941.jpg", "images/1942.jpg", "images/1945.jpg", "images/1948.jpg", "images/1953.jpg", "images/1971.jpg", "images/1975.jpg", "images/1981.jpg", "images/1995.jpg", "images/2000.jpg", "images/2010.jpg", "images/2015.jpg"];
+		var mySpeedArray = ["4", "3.5", "3", "2.5", "2", "1.7", "1.5", "1.2", ".7", ".5", ".3", ".2"];
+    var myTextArray = ["1941", "1942", "1945", "1948", "1953", "1971", "1975", "1981", "1995", "2000", "2010", "2015"];
+		// HTML Elements
+		var imageContainer = $('#something'); // plain JS
+    var textContainer = $('#text'); // jQuery
+    delay=100;
+
+		// Function to randomly select a string from "myImageArray"
+    function updateImage() {
+        i = Math.floor(Math.random() * myImageArray.length);
+        imageContainer.attr("src", myImageArray[i]);
+        speed = mySpeedArray[i] * 1000;
+        //window.i = i;
+        textContainer.html(myTextArray[i]); // jQuery
+        console.log("Text: " + i);
+        console.log("Image: " + myImageArray[i]);
+        window.setTimeout(updateImage, speed);
+    };
+    updateImage();
+
+	});
+	</script>
+</body>
+</html>
