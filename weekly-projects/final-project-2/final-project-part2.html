@@ -2,17 +2,97 @@
 <html>
 <head>
   <title>blueprints</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="final-project-part2.css">
   <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="sticky/jquery.sticky.js"></script>
+  <script src="jScrollability.min.js"></script>
 </head>
-
+<!--https://www.pixxelfactory.net/jInvertScroll/-->
+<!--https://www.hongkiat.com/blog/scrolling-effects-js-libraries/-->
 <body>
+  <img id="empire" src="images/empire-state-blueprint.jpg">
   <h1>blueprints</h1>
-  <a href="#" id="arch-building">
-    <img src="architectural-building-blueprint.jpg"
-    onmouseover="this.src='architecture-building.jpg'"
-    onmouseout="this.src='architectural-building-blueprint.jpg'"
-    border="0" alt=""/></a>
+  <br><br><br><br><br><br><br>
+  <div class="sticky">
+  <img id="architecture" src="images/architectural-building-blueprint.jpg"></div>
+  <img id="art" src="images/art-gallery-blueprint.jpg">
+
+  <section class="section section-1">
+    <img id="beinecke"src="images/beinecke-blueprint.jpg"/>
+  </section>
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <script type="text/javascript">
+  /*
+  $('.aniview').AniView();
+
+    $(document).ready(function(){
+      $('.aniview').AniView();
+    });
+
+    var options = {
+        animateThreshold: 100,
+        scrollPollInterval: 50
+    }
+    $('.aniview').AniView(options);
+    */
+    (function($) {
+    $(document).ready(function() {
+        $.jScrollability([
+            {
+                '#bing': '.slide-in-demo',
+                'start': 'parent',
+                'end': 'parent',
+                'fn': {
+                    'left': {
+                        'start': 100,
+                        'end': 0,
+                        'unit': '%'
+                    }
+                }
+            }
+        ]);
+    });
+})(jQuery);
+
+    /*$(document).ready(function(){
+        $("#architecture").sticky({topSpacing:0});
+      });
+      $(document).ready(function(){
+        var position = $('#architecture').position().bottom;
+        if (position > 50) {
+          $("#sticker").unstick();
+        }
+      });*/
+      //$("architecture").ready(function() {
+      /*
+      var position = jQuery('#architecture').offset().top;
+      console.log(position);
+      //https://www.youtube.com/watch?v=utonytGKodc
+      $('#architecture').scroll(function() {
+        var scrollpos = jQuery('#architecture').offset().top;
+        if($('#architecture').scrollTop() >= 10) {
+          jQuery("#architecture").addClass("fixed");
+        } else {
+          jQuery("#architecture").removeClass("fixed");
+        }
+      });*/
+
+    </script>
+
 </body>
 
 </html>
