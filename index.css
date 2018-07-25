@@ -187,3 +187,8 @@ h1 {
   top: 60%;
   left: 25%;
 }
+
+blink {
+  animation-duration: 1s;
+  
+}
