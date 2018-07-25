@@ -44,8 +44,9 @@ h1 {
 
 #beinecke {
   position: sticky;
-  top: 40%;
-  left:120%;
+  top: 15vh;
+  margin-left: 30vh;
+  margin-top: 30vh;
   width: 80vh;
   z-index: 6;
 }
