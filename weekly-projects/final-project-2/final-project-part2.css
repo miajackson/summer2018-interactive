@@ -25,6 +25,7 @@ h1 {
   position: absolute;
   top: 0vh;
   margin-top: 7vmin;
+  margin-left: 5vh;
   z-index: -2;
   /*height: 70vh;*/
   width: auto;
@@ -54,8 +55,6 @@ h1 {
   width: 75vh;
   height: auto;
 }
-
-
 
 .section-1 .slide-in-demo {
     position: absolute;
