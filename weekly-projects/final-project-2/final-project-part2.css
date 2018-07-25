@@ -4,6 +4,7 @@ h1 {
   white-space: pre;
   font-size: 12vh;
   margin-left: 20px;
+  z-index: 100;
 }
 
 .sticky {
@@ -20,9 +21,9 @@ h1 {
   position: sticky;
   top: 0vh;
   width: 80vh;
-  margin-left: 20px;
+  margin-top:10vmin;
   height: auto;
-  z-index: 0;
+  z-index: -2;
 }
 
 #art {
