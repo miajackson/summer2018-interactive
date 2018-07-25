@@ -68,8 +68,10 @@
     var documentLowercase = document.toLowerCase();
     for (i = 0; i < alphabetArray.length; i++) {
       if ((i + 7) < 26) {
+        console.log(i);
         document.getElementById(i).innerHTML = i % 7;
       } else {
+        console.log(i);
         document.getElementById(i).innerHTML = i + 7;
       }
     }
