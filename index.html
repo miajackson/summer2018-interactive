@@ -65,8 +65,10 @@
 
 
   $("#bookmarklet").click(function() {
+    console.log("hello")
     var documentLowercase = document.toLowerCase();
-    for (i = 0; i < alphabetArray.length; i++) {
+    alert("its working");
+    for (var i = 0; i < alphabetArray.length; i++) {
       if ((i + 7) < 26) {
         console.log(i);
         document.getElementById(i).innerHTML = i % 7;
