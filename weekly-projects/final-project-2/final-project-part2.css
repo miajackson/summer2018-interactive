@@ -2,7 +2,7 @@ h1 {
   position: fixed;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
-  font-weight: normal;
+  font-weight:200;
   font-size: 12vh;
   margin-left: 20px;
   z-index: 100;
@@ -24,7 +24,7 @@ h1 {
 #architecture {
   position: absolute;
   top: 0vh;
-  margin-top: 10vmin;
+  margin-top: 7svmin;
   z-index: -2;
   weight: 70vh;
   width: auto;
@@ -38,6 +38,15 @@ h1 {
   z-index: 6;
 }
 
+#beinecke {
+  position: sticky;
+  top: 15vh;
+  margin-left: 30vh;
+  margin-top: 20vh;
+  width: 80vh;
+  z-index: 6;
+}
+
 #empire {
   position: absolute;
   top: 90vh;
@@ -46,14 +55,6 @@ h1 {
   height: auto;
 }
 
-#beinecke {
-  position: sticky;
-  top: 15vh;
-  margin-left: 30vh;
-  margin-top: 30vh;
-  width: 80vh;
-  z-index: 6;
-}
 
 
 .section-1 .slide-in-demo {
