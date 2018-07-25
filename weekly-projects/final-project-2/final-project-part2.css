@@ -1,12 +1,14 @@
 h1 {
   position: fixed;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
+  font-weight: normal;
   font-size: 12vh;
   margin-left: 20px;
   z-index: 100;
+  color: white;
   display: inline-block;
-  background-color: white;
+  background-color: black;
 }
 
 .sticky {
