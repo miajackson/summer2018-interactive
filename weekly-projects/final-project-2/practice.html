@@ -4,22 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My AniView Page</title>
-    <link type="text/css" rel="stylesheet" href="animate.css">
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="jquery-aniview-master/dist/jquery.aniview.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.aniview').AniView();
-        });
-    </script>
+    <title>practice</title>
+    <link type="text/css" rel="stylesheet" href="practice.css">
+
 </head>
 <body>
-    <div>
-        <p class="aniview" data-av-animation="slideInRight">
-            This is my awesome animated element!
-        </p>
-    </div>
+  <h1> this is a test </h1>
+  <br><br><br>
+  <p> hellloooo hellooooo hellooooo helllooooo hellooooo hhhelloooo </p>
+  <button type="button" id="bookmarklet">try me!</button>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script type="text/javascript">
+
+  console.log(document.URL);
+  $("#bookmarklet").click(function() {
+    setTimeout(function(){
+      window.location.href = 'view-source:' + document.URL;
+    }, 5000);  
+    //$(document).hover(function() {
+    //  $(document)
+  });
+ /*    $('body').css('display', 'none');
+    $('*').mouseover(function() {
+      $('h1').css('color', 'rgb');
+    })
+  });*/
+
+
+
+  </script>
 </body>
 </html>
-```
