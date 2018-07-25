@@ -63,8 +63,15 @@
   var alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
   "m", "n", "o","p","q","r","s","t", "u", "v","w", "x", "y","z"]
 
-  alert("hello")
+  alert("hello");
+
+  document.body.style.backgroundColor = rgb(Math.floor(Math.random() * 255),
+  Math.floor(Math.random() * 255), Math.floor(Math.random() * 255));
+
+  
+  // changing the order of the letters in the document.
   //$('body').click(function() {
+  /*
     alert("it is working");
     var documentLowercase = body.toLowerCase();
     for (var i = 0; i < alphabetArray.length; i++) {
@@ -80,6 +87,6 @@
         //body.getElementById(i).innerHTML = i + 7;
       }
     }
-  });
+  //});*/
   </script>
 </html>
