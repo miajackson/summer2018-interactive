@@ -24,9 +24,9 @@ h1 {
 #architecture {
   position: absolute;
   top: 0vh;
-  margin-top: 7svmin;
+  margin-top: 7vmin;
   z-index: -2;
-  weight: 70vh;
+  /*height: 70vh;*/
   width: auto;
 }
 
