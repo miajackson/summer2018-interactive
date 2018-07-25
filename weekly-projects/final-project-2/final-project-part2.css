@@ -40,7 +40,7 @@ h1 {
 
 #beinecke {
   position: sticky;
-  top: 15vh;
+  top: 50vh;
   margin-left: 30vh;
   margin-top: 20vh;
   width: 80vh;
@@ -48,9 +48,9 @@ h1 {
 }
 
 #empire {
-  position: absolute;
-  top: 90vh;
-  left:50vh;
+  position: sticky;
+  top: 80vh;
+  margin-left:95vh;
   width: 75vh;
   height: auto;
 }
