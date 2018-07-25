@@ -3,6 +3,7 @@ h1 {
   font-family: Helvetica;
   white-space: pre;
   font-size: 12vh;
+  margin-left: 20px;
 }
 
 .sticky {
@@ -17,9 +18,9 @@ h1 {
 
 #architecture {
   position: sticky;
-  left: 110vh;
   top: 15vh;
-  width: 80vh;
+  /*width: 80vh;
+  margin-left: 20px;*/
   height: auto;
   /*z-index: 0;*/
 }

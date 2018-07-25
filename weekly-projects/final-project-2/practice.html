@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>practice</title>
-    <link type="text/css" rel="stylesheet" href="practice.css">
-
-</head>
+  </head>
 <body>
   <h1> this is a test </h1>
   <br><br><br>
   <p> hellloooo hellooooo hellooooo helllooooo hellooooo hhhelloooo </p>
   <button type="button" id="bookmarklet">try me!</button>
+  <img src="smily.png" alt="smily"
+    style="width:350px;height:350px;" class="center">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
   <script type="text/javascript">
 
-  console.log(document.URL);
   $("#bookmarklet").click(function() {
-    setTimeout(function(){
-      window.location.href = 'view-source:' + document.URL;
-    }, 5000);  
-    //$(document).hover(function() {
-    //  $(document)
+    $('body').css('background-color', '#3766b2');
+    $('body').css('background-blend-mode', 'multiply');
+    $('*').css('font-family', 'Helvetica');
+    //'border', '10px', 'solid', 'white'
+    $('*').css('color', 'white');
+    $('p, h1').css('border','10px', 'solid', 'white');
+    var width = $(window).width();
+    var height = $(window).height();
+    $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>')
+    $("body").append('<div class="dimension"> dimensions: ' + width + ' x ' + height + '</div>');
+    //$("body").append('<div class="#blend">');
+    //("#errorSuccess").append("<b>" + aux + "</b>");
   });
- /*    $('body').css('display', 'none');
-    $('*').mouseover(function() {
-      $('h1').css('color', 'rgb');
-    })
-  });*/
-
-
 
   </script>
 </body>

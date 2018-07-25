@@ -1,3 +1,16 @@
-body {
-  display: 
+* {
+  outline-color: black;
+  weight: 5px;
+}
+
+#blend {
+  background-color: #3766b2;
+  background-blend-mode: multiply;
+}
+
+.dimension {
+  position: absolute;
+  top: 0vmin;
+  left: 100vh;
+  color: white;
 }

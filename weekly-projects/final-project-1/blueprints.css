@@ -1,5 +1,6 @@
 h1 {
   font-family: monospace;
+  font-weight: normal;
   white-space: pre;
   font-size: 60px;
 }
