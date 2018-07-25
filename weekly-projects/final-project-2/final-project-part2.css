@@ -18,11 +18,9 @@ h1 {
 }
 
 #architecture {
-  position: sticky;
+  position: absolute;
   top: 0vh;
-  width: 80vh;
-  margin-top:10vmin;
-  height: auto;
+  margin-top: 10vmin;
   z-index: -2;
 }
 
@@ -50,6 +48,7 @@ h1 {
   width: 80vh;
   z-index: 6;
 }
+
 
 .section-1 .slide-in-demo {
     position: absolute;
