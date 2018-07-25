@@ -61,18 +61,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
   <script type="text/javascript">
-  var alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
+
+  $('.blink').each(function() {
+    var elem = $(this);
+    setInterval(function() {
+        if (elem.css('visibility') == 'hidden') {
+            elem.css('visibility', 'visible');
+        } else {
+            elem.css('visibility', 'hidden');
+        }
+    }, 500);
+});
+
+  blink();
+
+
+  /*var alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
   "m", "n", "o","p","q","r","s","t", "u", "v","w", "x", "y","z"]
 
-
-  function blink() {
-     setInterval(function() {
-        body.style.display = (body.style.display == 'none' ? '' : 'none');
-     }, 1000);
-  }
-  // changing the order of the letters in the document.
-  //$('body').click(function() {
-  /*
+  changing the order of the letters in the document.
+  $('body').click(function() {
     alert("it is working");
     var documentLowercase = body.toLowerCase();
     for (var i = 0; i < alphabetArray.length; i++) {
