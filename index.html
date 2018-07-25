@@ -69,7 +69,6 @@
     var documentLowercase = body.toLowerCase();
     for (var i = 0; i < alphabetArray.length; i++) {
       if ((i + 7) < 26) {
-        .html();
         $("body").children().each(function() {
           $(this).html($(this).html().replace(i, i + 7));
         });
