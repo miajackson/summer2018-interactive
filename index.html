@@ -63,18 +63,21 @@
   var alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
   "m", "n", "o","p","q","r","s","t", "u", "v","w", "x", "y","z"]
 
-
-  $("#bookmarklet").click(function() {
-    console.log("hello")
-    var documentLowercase = document.toLowerCase();
-    alert("its working");
+  alert("hello")
+  $("#bookmarklet").onclick(function() {
+    alert("it is working");
+    var documentLowercase = body.toLowerCase();
     for (var i = 0; i < alphabetArray.length; i++) {
       if ((i + 7) < 26) {
-        console.log(i);
-        document.getElementById(i).innerHTML = i % 7;
+        $("body").children().each(function() {
+          $(this).html($(this).html().replace(i, i + 7));
+        });
+        //body.getElementById(i).innerHTML = i % 7;
       } else {
-        console.log(i);
-        document.getElementById(i).innerHTML = i + 7;
+        $("body").children().each(function() {
+          $(this).html($(this).html().replace(i, i + 7));
+        });
+        //body.getElementById(i).innerHTML = i + 7;
       }
     }
   });
