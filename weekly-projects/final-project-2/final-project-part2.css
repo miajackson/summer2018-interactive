@@ -31,9 +31,9 @@ h1 {
 }
 
 #art {
-  position: fixed;
-  top: 40%;
-  left:0%;
+  position: sticky;
+  top: 10vh;
+  margin-left: 90vh;
   width: 80vh;
   z-index: 6;
 }
