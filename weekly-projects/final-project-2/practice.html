@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="practice.css">
     <title>practice</title>
   </head>
 <body>
@@ -13,21 +14,23 @@
   <button type="button" id="bookmarklet">try me!</button>
   <img src="smily.png" alt="smily"
     style="width:350px;height:350px;" class="center">
+  <div id="blend"></div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
   <script type="text/javascript">
 
   $("#bookmarklet").click(function() {
     $('body').css('background-color', '#3766b2');
-    $('body').css('background-blend-mode', 'multiply');
+    // make a square to add it
+    $('body').css('mix-blend-mode', 'multiply');
     $('*').css('font-family', 'Helvetica');
-    //'border', '10px', 'solid', 'white'
     $('*').css('color', 'white');
-    $('p, h1').css('border','10px', 'solid', 'white');
+    $('p, h1').css('border','4px solid #204a8e');
     var width = $(window).width();
     var height = $(window).height();
     $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>')
     $("body").append('<div class="dimension"> dimensions: ' + width + ' x ' + height + '</div>');
+    $("body").append('<div id="blend"></div>');
     //$("body").append('<div class="#blend">');
     //("#errorSuccess").append("<b>" + aux + "</b>");
   });

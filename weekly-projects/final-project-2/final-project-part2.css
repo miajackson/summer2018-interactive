@@ -24,8 +24,8 @@ h1 {
 #architecture {
   position: absolute;
   top: 0vh;
-  margin-top: 7vmin;
-  margin-left: 5vh;
+  margin-top: 7vh;
+  margin-left: 40vw;
   z-index: -2;
   /*height: 70vh;*/
   width: auto;
@@ -34,7 +34,7 @@ h1 {
 #art {
   position: sticky;
   top: 10vh;
-  margin-left: 90vh;
+  margin-top: 40vh;
   width: 80vh;
   z-index: 6;
 }

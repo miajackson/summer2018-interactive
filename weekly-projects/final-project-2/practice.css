@@ -4,10 +4,13 @@
 }
 
 #blend {
-  background-color: #3766b2;
-  background-blend-mode: multiply;
+  height: 100vh;
+  weight: 100vw;
+  color: black;
+  mix-blend-mode: multiply;
+  z-index: 100;
+  /*#3766b2*/
 }
-
 .dimension {
   position: absolute;
   top: 0vmin;
