@@ -64,11 +64,12 @@
   "m", "n", "o","p","q","r","s","t", "u", "v","w", "x", "y","z"]
 
   alert("hello")
-  $("#bookmarklet").onclick(function() {
+  //$('body').click(function() {
     alert("it is working");
     var documentLowercase = body.toLowerCase();
     for (var i = 0; i < alphabetArray.length; i++) {
       if ((i + 7) < 26) {
+        .html();
         $("body").children().each(function() {
           $(this).html($(this).html().replace(i, i + 7));
         });
@@ -76,7 +77,7 @@
       } else {
         $("body").children().each(function() {
           $(this).html($(this).html().replace(i, i + 7));
-        });
+        //});
         //body.getElementById(i).innerHTML = i + 7;
       }
     }
