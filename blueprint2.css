@@ -1,0 +1,17 @@
+body {
+  margin: auto;
+  margin: 0px;
+}
+
+h1 {
+  position: fixed;
+  font-family: "Helvetica Neue", Helvetica;
+  white-space: pre;
+  font-weight:250;
+  font-size: 12vh;
+  margin-left: 2vh;
+  z-index: 100;
+  color: white;
+  display: inline-block;
+  background-color: black;
+}

@@ -1,6 +1,7 @@
 body {
   margin: auto;
-  margin: 0px; 
+  margin: 0px;
+  overflow: hidden;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h1 {
 #architecture {
   position: absolute;
   top: 0vh;
-  margin-left: -90vh;
+  margin-left: -90vw;
   z-index: -2;
   height: 90vh;
   width: auto;
@@ -28,8 +29,8 @@ h1 {
 #art {
   position: sticky;
   top: 10vh;
-  margin-top: 40vh;
-  margin-left: 100vw;
+  margin-top: -55%;
+  margin-left: 65vw;
   width: 80vh;
   z-index: 6;
 }
