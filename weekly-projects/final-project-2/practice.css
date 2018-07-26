@@ -3,9 +3,10 @@
   weight: 5px;
 }
 
-#blend {
-  height: 100vh;
-  weight: 100vw;
+.blend {
+  position: absolute
+  height: 100px;
+  weight: 100px;
   color: black;
   mix-blend-mode: multiply;
   z-index: 100;
