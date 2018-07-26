@@ -1,7 +1,7 @@
 body {
   margin: auto;
   margin: 0px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -25,10 +25,10 @@ h1 {
   height: 90vh;
   width: auto;
 }
-
+/*
 #art {
   position: sticky;
-  top: 10vh;
+  top: 5vh;
   margin-top: -55%;
   margin-left: 65vw;
   width: 80vh;
