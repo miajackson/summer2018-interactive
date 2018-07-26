@@ -24,7 +24,7 @@ h1 {
 #architecture {
   position: absolute;
   top: 0vh;
-  margin-left: -80vh;
+  margin-left: -90vw;
   z-index: -2;
   height: 90vh;
   width: auto;
