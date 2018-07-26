@@ -21,7 +21,7 @@ h1 {
   position: absolute;
   top: -1vh;
   margin-left: -1vw;
-  height: 40vw;
+  width: 89vw;
   width: auto;
 }
 
@@ -45,9 +45,9 @@ h1 {
 
 #empire {
   position: sticky;
-  top: 0vh;
-  margin-left:52vh;
-  width: 78vh;
+  top: 93vh;
+  margin-left:35vw;
+  width: 75vw;
   z-index: 7;
 }
 /*
