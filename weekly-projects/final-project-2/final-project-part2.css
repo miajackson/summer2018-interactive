@@ -50,6 +50,14 @@ h1 {
   width: 54vw;
   z-index: 7;
 }
+
+#architecture {
+  position: absolute;
+  top: -1vh;
+  margin-left: -1vw;
+  width: 40vw;
+  width: auto;
+}
 /*
 .section-1 .slide-in-demo {
     position: absolute;
