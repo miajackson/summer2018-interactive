@@ -34,7 +34,7 @@ h1 {
   position: sticky;
   top: 10vh;
   margin-top: 40vh;
-  margin-left: 9vw;
+  margin-left: 100vw;
   width: 80vh;
   z-index: 6;
 }
