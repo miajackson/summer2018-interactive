@@ -145,6 +145,14 @@ h1 {
   height: 72vh;
 }
 
+#revoling-platform {
+  position: absolute;
+  top: 308vh;
+  margin-left: 0vw;
+  width: 24vw;
+  height: 72vh;
+}
+
 #berkeley {
   position: absolute;
   top: 377vh;
