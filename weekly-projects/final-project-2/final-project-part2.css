@@ -66,7 +66,7 @@ h1 {
 
 #moma {
   position: absolute;
-  top: 97vh;
+  top: 173vh;
   margin-left: 65vw;
   width: 41vw;
   height: 33vw;
@@ -79,12 +79,45 @@ h1 {
   margin-left: 65vw;
   width: 43vw;
 }
-/*
-.section-1 .slide-in-demo {
-    position: absolute;
-    top: 15%;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    font-size: 4em;
-}*/
+
+#sterling {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 43vw;
+}
+
+#white-house {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 43vw;
+}
+
+#athens-airport {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 43vw;
+}
+
+#johnson-home {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 43vw;
+}
+
+#bell-lab {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 43vw;
+}
+
+#times-inc {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 43vw;
+}
