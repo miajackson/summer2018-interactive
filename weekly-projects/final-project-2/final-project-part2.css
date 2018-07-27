@@ -96,7 +96,7 @@ h1 {
 
 #johnson-home {
   position: absolute;
-  top: 208vh;
+  top: 213vh;
   margin-left: 34vw;
   width: 31vw;
   height: 46vh
@@ -118,56 +118,57 @@ h1 {
 
 #davenport {
   position: absolute;
-  top: 261vh;
-  margin-left: 0vw;
-  width: 24vw;
+  top: 307vh;
+  margin-left: 17vw;
+  width: 52vw;
 }
 
 #cbs {
   position: absolute;
-  top: 261vh;
-  margin-left: 0vw;
-  width: 24vw;
+  top: 294vh;
+  margin-left: 65vw;
+  width: 43vw;
 }
 
 #patent {
   position: absolute;
-  top: 261vh;
+  top: 378vh;
   margin-left: 0vw;
-  width: 24vw;
+  width: 54vw;
 }
 
 #new-haven {
   position: absolute;
-  top: 261vh;
+  top: 308vh;
   margin-left: 0vw;
   width: 24vw;
+  height: 72vh;
 }
 
 #berkeley {
   position: absolute;
-  top: 261vh;
-  margin-left: 0vw;
-  width: 24vw;
+  top: 377vh;
+  margin-left: 54vw;
+  width: 54vw;
 }
 
 #hallway {
   position: absolute;
-  top: 261vh;
-  margin-left: 0vw;
-  width: 24vw;
+  top: 449vh;
+  margin-left: 54vw;
+  width: 25vw;
 }
 
 #pentagon {
   position: absolute;
-  top: 261vh;
+  top: 481vh;
   margin-left: 0vw;
-  width: 24vw;
+  width: 26vw;
 }
 
 #revolving-platform {
   position: absolute;
-  top: 261vh;
-  margin-left: 0vw;
+  top: 489vh;
+  margin-left: 29vw;
   width: 24vw;
 }
