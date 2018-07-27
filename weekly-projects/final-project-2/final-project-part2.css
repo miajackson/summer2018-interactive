@@ -96,8 +96,8 @@ h1 {
 
 #johnson-home {
   position: absolute;
-  top: 212vh;
-  margin-left: 65vw;
+  top: 208vh;
+  margin-left: 34vw;
   width: 31vw;
   height: 46vh
 }
@@ -111,7 +111,7 @@ h1 {
 
 #times-inc {
   position: absolute;
-  top: 256vh;
+  top: 260vh;
   margin-left: 0vw;
   width: 24vw;
 }
