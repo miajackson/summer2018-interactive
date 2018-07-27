@@ -104,7 +104,7 @@ h1 {
 
 #bell-lab {
   position: absolute;
-  top: 208vh;
+  top: 206vh;
   margin-left: 0vw;
   width: 34vw;
 }
@@ -147,10 +147,10 @@ h1 {
 
 #revolving-platform {
   position: absolute;
-  top: 308vh;
-  margin-left: 0vw;
-  width: 24vw;
-  height: 72vh;
+  top: 482vh;
+  margin-left: 26vw;
+  width: 28vw;
+  height: 57vh;
 }
 
 #berkeley {
@@ -169,49 +169,99 @@ h1 {
 
 #pentagon {
   position: absolute;
-  top: 481vh;
+  top: 482vh;
   margin-left: 0vw;
   width: 26vw;
 }
 
 #battel {
   position: absolute;
-  top: 489vh;
-  margin-left: 29vw;
+  top: 495vh;
+  margin-left: 54vw;
   width: 24vw;
 }
 
 #yale-general {
   position: absolute;
-  top: 489vh;
-  margin-left: 29vw;
-  width: 24vw;
+  top: 446vh;
+  margin-left: 78vw;
+  width: 30vw;
 }
 
 #IBM {
   position: absolute;
-  top: 489vh;
-  margin-left: 29vw;
-  width: 24vw;
+  top: 526vh;
+  margin-left: 0vw;
+  width: 26vw;
+  height: 52vh;
 }
 
 #image-handler {
   position: absolute;
-  top: 489vh;
-  margin-left: 29vw;
-  width: 24vw;
+  top: 521vh;
+  margin-left: 78vw;
+  width: 30vw;
 }
 
 #john-deere {
   position: absolute;
-  top: 489vh;
-  margin-left: 29vw;
-  width: 24vw;
+  top: 540vh;
+  margin-left: 26vw;
+  width: 33vw;
 }
 
 #MIT {
   position: absolute;
-  top: 489vh;
-  margin-left: 29vw;
+  top: 533vh;
+  margin-left: 54vw;
   width: 24vw;
+  height: 51.5vh;
+}
+
+#richmond {
+  position: absolute;
+  top: 533vh;
+  margin-left: 54vw;
+  width: 24vw;
+  height: 51.5vh;
+}
+
+#los-angeles {
+  position: absolute;
+  top: 533vh;
+  margin-left: 54vw;
+  width: 24vw;
+  height: 51.5vh;
+}
+
+#new-york {
+  position: absolute;
+  top: 533vh;
+  margin-left: 54vw;
+  width: 24vw;
+  height: 51.5vh;
+}
+
+#chicago {
+  position: absolute;
+  top: 533vh;
+  margin-left: 54vw;
+  width: 24vw;
+  height: 51.5vh;
+}
+
+#philly {
+  position: absolute;
+  top: 533vh;
+  margin-left: 54vw;
+  width: 24vw;
+  height: 51.5vh;
+}
+
+#dc {
+  position: absolute;
+  top: 533vh;
+  margin-left: 54vw;
+  width: 24vw;
+  height: 51.5vh;
 }
