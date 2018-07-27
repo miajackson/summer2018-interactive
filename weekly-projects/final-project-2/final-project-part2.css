@@ -26,19 +26,17 @@ h1 {
 }
 
 #art {
-  position: sticky;
-  top: 0vh;
-  margin-top: -21%;
+  position: absolute;
+  top:0vh;
   margin-left: 65vw;
-  width: 40vw;
+  width: 42vw;
   z-index: 6;
 }
 
 #beinecke {
-  position: sticky;
-  top: 0vh;
+  position: absolute;
+  top: 44vh;
   margin-left: 65vw;
-  margin-top: 17vh;
   width: 42vw;
   z-index: 6;
 }
@@ -51,11 +49,12 @@ h1 {
   z-index: 7;
 }
 
-#moma {
+#old-brick {
   position: absolute;
-  top: 76vh;
+  top: 75vh;
   margin-left: -2vw;
   width: 31vw;
+  height: 43vh;
 }
 
 #met {
@@ -66,11 +65,19 @@ h1 {
   width: auto;
 }
 
-#old-brick {
+#moma {
   position: absolute;
-  top: 78vh;
-  margin-left: 28vw;
-  width: 38vw;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 42vw;
+  width: auto;
+}
+
+#sterling {
+  position: absolute;
+  top: 97vh;
+  margin-left: 65vw;
+  width: 42vw;
   width: auto;
 }
 /*
