@@ -54,7 +54,7 @@ h1 {
   top: 75vh;
   margin-left: -2vw;
   width: 31vw;
-  height: 43vh;
+  height: 49vh;
 }
 
 #met {
@@ -62,23 +62,22 @@ h1 {
   top: 78vh;
   margin-left: 28vw;
   width: 38vw;
-  width: auto;
 }
 
 #moma {
   position: absolute;
   top: 97vh;
   margin-left: 65vw;
-  width: 42vw;
-  width: auto;
+  width: 41vw;
+  height: 33vw;
+  h
 }
 
 #sterling {
   position: absolute;
   top: 97vh;
   margin-left: 65vw;
-  width: 42vw;
-  width: auto;
+  width: 43vw;
 }
 /*
 .section-1 .slide-in-demo {
