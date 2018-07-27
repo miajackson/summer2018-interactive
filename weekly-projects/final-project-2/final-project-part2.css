@@ -111,7 +111,63 @@ h1 {
 
 #times-inc {
   position: absolute;
-  top: 260vh;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#davenport {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#cbs {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#patent {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#new-haven {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#berkeley {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#hallway {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#pentagon {
+  position: absolute;
+  top: 261vh;
+  margin-left: 0vw;
+  width: 24vw;
+}
+
+#revolving-platform {
+  position: absolute;
+  top: 261vh;
   margin-left: 0vw;
   width: 24vw;
 }
