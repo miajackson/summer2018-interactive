@@ -44,26 +44,33 @@ h1 {
 }
 
 #empire {
-  position: sticky;
-  top: 93vh;
-  margin-left:55vw;
-  width: 54vw;
+  position: absolute;
+  top: 121vh;
+  margin-left:0vw;
+  width: 65vw;
   z-index: 7;
 }
 
 #moma {
   position: absolute;
-  top: -1vh;
-  margin-left: -1vw;
-  width: 40vw;
-  width: auto;
+  top: 76vh;
+  margin-left: -2vw;
+  width: 31vw;
 }
 
 #met {
   position: absolute;
-  top: 30vh;
-  margin-left: -1vw;
-  width: 40vw;
+  top: 78vh;
+  margin-left: 28vw;
+  width: 38vw;
+  width: auto;
+}
+
+#old-brick {
+  position: absolute;
+  top: 78vh;
+  margin-left: 28vw;
+  width: 38vw;
   width: auto;
 }
 /*
