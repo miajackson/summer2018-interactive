@@ -166,7 +166,42 @@ h1 {
   width: 26vw;
 }
 
-#revolving-platform {
+#battel {
+  position: absolute;
+  top: 489vh;
+  margin-left: 29vw;
+  width: 24vw;
+}
+
+#yale-general {
+  position: absolute;
+  top: 489vh;
+  margin-left: 29vw;
+  width: 24vw;
+}
+
+#IBM {
+  position: absolute;
+  top: 489vh;
+  margin-left: 29vw;
+  width: 24vw;
+}
+
+#image-handler {
+  position: absolute;
+  top: 489vh;
+  margin-left: 29vw;
+  width: 24vw;
+}
+
+#john-deere {
+  position: absolute;
+  top: 489vh;
+  margin-left: 29vw;
+  width: 24vw;
+}
+
+#MIT {
   position: absolute;
   top: 489vh;
   margin-left: 29vw;
