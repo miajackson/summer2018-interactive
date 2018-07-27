@@ -80,44 +80,38 @@ h1 {
   width: 43vw;
 }
 
-#sterling {
-  position: absolute;
-  top: 97vh;
-  margin-left: 65vw;
-  width: 43vw;
-}
-
 #white-house {
   position: absolute;
-  top: 97vh;
-  margin-left: 65vw;
+  top: 257vh;
+  margin-left: 24vw;
   width: 43vw;
 }
 
 #athens-airport {
   position: absolute;
-  top: 97vh;
+  top: 230vh;
   margin-left: 65vw;
   width: 43vw;
 }
 
 #johnson-home {
   position: absolute;
-  top: 97vh;
+  top: 212vh;
   margin-left: 65vw;
-  width: 43vw;
+  width: 31vw;
+  height: 46vh
 }
 
 #bell-lab {
   position: absolute;
-  top: 97vh;
-  margin-left: 65vw;
-  width: 43vw;
+  top: 208vh;
+  margin-left: 0vw;
+  width: 34vw;
 }
 
 #times-inc {
   position: absolute;
-  top: 97vh;
-  margin-left: 65vw;
-  width: 43vw;
+  top: 256vh;
+  margin-left: 0vw;
+  width: 24vw;
 }
