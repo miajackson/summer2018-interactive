@@ -220,18 +220,16 @@ h1 {
 
 #richmond {
   position: absolute;
-  top: 533vh;
-  margin-left: 54vw;
-  width: 24vw;
-  height: 51.5vh;
+  top: 478vh;
+  margin-left: 0vw;
+  width: 26vw;
 }
 
 #los-angeles {
   position: absolute;
-  top: 533vh;
-  margin-left: 54vw;
-  width: 24vw;
-  height: 51.5vh;
+  top: 584vh;
+  margin-left: 26vw;
+  width: 52vw;
 }
 
 #new-york {
