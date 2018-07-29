@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="practice1.css">
     <title>practice</title>
   </head>
 <body>
@@ -14,25 +14,66 @@
   <button type="button" id="bookmarklet">try me!</button>
   <img src="smily.png" alt="smily"
     style="width:350px;height:350px;" class="center">
-  <div id="blend"></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YQHsXMglC9A"
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div class="full-screen"></div>
+  <ul>
+          <li><a href="weekly-projects/library-book/library-book.html">Library Book Project</a></li>
+          <li><a href="weekly-projects/coding-from-life/index.html">Coding From Life</a></li>
+          <li><a href="weekly-projects/simple-instructions.html">Simple Instructions</a></li>
+          <li><a href="https://docs.google.com/presentation/d/1NyfK5ecWbOOaXZrFPDjNT5lV48nit9TSWSB-mtSIMNg/edit#slide=id.p">Information Overlay Presentation</a></li>
+          <li><a href="weekly-projects/permutations/index.html">hello</a></li>
+          <li><a href="weekly-projects/information-overlay/storyboard-of-a-website.html">yo</a></li>
+          <li><a href="weekly-projects/information-overlay/collection.html">Collections and Inspiration for Information Overlay</a></li>
+      </ul>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
   <script type="text/javascript">
-
+  var colorR = Math.floor(Math.random() * 248);
+  var colorG = Math.floor(Math.random() * 248);
+  var colorB = Math.floor((Math.random() * 153) + 102);
+  console.log(colorR);
   $("#bookmarklet").click(function() {
-    $('body').css('background-color', '#3766b2');
-    // make a square to add it
+    $('body').css('background-color', 'rgb(colorR, colorG, colorB)');
+    //'#3766b2'
     $('*').css('font-family', 'Helvetica');
     $('*').css('font-weight', '250');
-    $('*').css('color', 'white');
-    $('p, h1').css('border','4px solid #204a8e');
-    var width = $(window).width();
-    var height = $(window).height();
-    $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>')
-    $("body").append('<div class="dimension"> dimensions: ' + width + ' x ' + height + '</div>');
+    $('*').css('color', 'transparent');
+    $('p, h1, li, ul').css('border','4px solid #204a8e');
+
+    $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>');
     $("body").append('<div class="blend"></div>');
-    //$("body").append('<div class="#blend">');
-    //("#errorSuccess").append("<b>" + aux + "</b>");
+    $("body").append('<p id="width"></p>');
+    $("body").append('<p id="height"></p>');
+
+    //DESCRIPTION: Deletes all the images from graphic frames. If no frames are selected, it removes all images from every frame in your document!
+
+//target indesign;
+
+
+    $('video, iframe').css('opacity', '.3');
+    $('video, iframe').css('border', '7px solid white', 'opacity');
+
+
+    // adds the dimensions of the page
+    function fontSize() {
+      width = Math.floor(window.innerWidth);
+      height = Math.floor(window.innerHeight);
+      $("#width").html('x' + width);
+      $("#height").html('x' + height);
+      $("#width").css("font-size", width/9 + 'px');
+      $("#height").css("font-size", height/7 + 'px');
+    }
+
+    // Trigger a function whenever the window is resized
+    $(window).resize(function() {
+      fontSize();
+    });
+
+    // Execute a function when the DOM is ready
+    fontSize();
+
   });
 
   </script>

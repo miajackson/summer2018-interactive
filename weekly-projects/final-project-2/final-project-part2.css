@@ -17,6 +17,20 @@ h1 {
   background-color: black;
 }
 
+h2 {
+  position: fixed;
+  font-family: "Helvetica Neue", Helvetica;
+  white-space: pre;
+  font-weight:250;
+  font-size: 10vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+
+  z-index: 100;
+  color: white;
+  display: inline-block;
+  background-color: black;
+}
 #architecture {
   position: absolute;
   top: -1vh;
