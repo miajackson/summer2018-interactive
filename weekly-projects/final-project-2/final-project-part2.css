@@ -24,7 +24,7 @@ h2 {
   font-weight:250;
   font-size: 8vh;
   margin-left: 1vw;
-  margin-top: 570vh;
+  margin-top: 563vh;
   z-index: 100;
   color: white;
   display: inline-block;
@@ -233,9 +233,9 @@ h2 {
 
 #richmond {
   position: absolute;
-  top: 478vh;
+  top: 584vh;
   margin-left: 0vw;
-  width: 26vw;
+  width: 54vw;
 }
 
 #los-angeles {
@@ -271,8 +271,40 @@ h2 {
 
 #dc {
   position: absolute;
-  top: 670vh;
-  margin-left: 54vw;
+  top: 691vh;
+  margin-left: 0vw;
+  width: 54vw;
+  height: auto;
+}
+
+#wikipedia {
+  position: absolute;
+  top: 691vh;
+  margin-left: 0vw;
+  width: 54vw;
+  height: auto;
+}
+
+#bing {
+  position: absolute;
+  top: 691vh;
+  margin-left: 0vw;
+  width: 54vw;
+  height: auto;
+}
+
+#first-website {
+  position: absolute;
+  top: 691vh;
+  margin-left: 0vw;
+  width: 54vw;
+  height: auto;
+}
+
+#google {
+  position: absolute;
+  top: 691vh;
+  margin-left: 0vw;
   width: 54vw;
   height: auto;
 }
