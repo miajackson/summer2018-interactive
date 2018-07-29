@@ -258,7 +258,7 @@ h2 {
   top: 615vh;
   margin-left: 54vw;
   width: 24vw;
-  height: 55.5vh;
+  height: 65.3vh;
 }
 
 #philly {
@@ -279,32 +279,32 @@ h2 {
 
 #wikipedia {
   position: absolute;
-  top: 691vh;
-  margin-left: 0vw;
+  top: 680vh;
+  margin-left: 54vw;
   width: 54vw;
   height: auto;
 }
 
 #bing {
   position: absolute;
-  top: 691vh;
+  top: 740.5vh;
   margin-left: 0vw;
-  width: 54vw;
+  width: 51vw;
   height: auto;
 }
 
 #first-website {
   position: absolute;
-  top: 691vh;
-  margin-left: 0vw;
-  width: 54vw;
-  height: auto;
+  top: 740.5vh;
+  margin-left: 54vw;
+  width: 50vw;
+  height: 48vh;
 }
 
 #google {
   position: absolute;
-  top: 691vh;
+  top: 785vh;
   margin-left: 0vw;
-  width: 54vw;
-  height: auto;
+  width: 44vw;
+  height: 48vh;
 }
