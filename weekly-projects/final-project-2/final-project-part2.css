@@ -10,8 +10,8 @@ h1 {
   white-space: pre;
   font-weight:250;
   font-size: 12vh;
-  margin-left: 2vh;
-  z-index: 100;
+  margin-left: 1vw;
+  z-index: 200;
   color: white;
   display: inline-block;
   background-color: black;
@@ -21,10 +21,10 @@ h2 {
   position: absolute;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
-  font-weight:150;
-  font-size: 10vh;
-  margin-left: 2vh;
-  margin-top: 2vh;
+  font-weight:250;
+  font-size: 8vh;
+  margin-left: 1vw;
+  margin-top: 570vh;
   z-index: 100;
   color: white;
   display: inline-block;
@@ -241,24 +241,24 @@ h2 {
 #los-angeles {
   position: absolute;
   top: 584vh;
-  margin-left: 26vw;
-  width: 52vw;
+  margin-left: 54vw;
+  width: 24vw;
 }
 
 #new-york {
   position: absolute;
-  top: 533vh;
-  margin-left: 54vw;
-  width: 24vw;
-  height: 51.5vh;
+  top: 605.5vh;
+  margin-left: 78vw;
+  width: 30vw;
+  height: auto;
 }
 
 #chicago {
   position: absolute;
-  top: 533vh;
+  top: 615vh;
   margin-left: 54vw;
   width: 24vw;
-  height: 51.5vh;
+  height: 55.5vh;
 }
 
 #philly {
@@ -271,8 +271,8 @@ h2 {
 
 #dc {
   position: absolute;
-  top: 533vh;
+  top: 670vh;
   margin-left: 54vw;
-  width: 24vw;
-  height: 51.5vh;
+  width: 54vw;
+  height: auto;
 }
