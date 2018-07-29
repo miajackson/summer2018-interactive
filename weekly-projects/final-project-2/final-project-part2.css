@@ -282,15 +282,15 @@ h2 {
   top: 680vh;
   margin-left: 54vw;
   width: 54vw;
-  height: auto;
+  height: 60vh;
 }
 
 #bing {
   position: absolute;
   top: 740.5vh;
   margin-left: 0vw;
-  width: 51vw;
-  height: auto;
+  width: 54vw;
+  height: 48vh;
 }
 
 #first-website {
@@ -303,8 +303,16 @@ h2 {
 
 #google {
   position: absolute;
-  top: 785vh;
+  top: 789vh;
   margin-left: 0vw;
-  width: 44vw;
+  width: 54vw;
+  height: 48vh;
+}
+
+#yahoo {
+  position: absolute;
+  top: 789vh;
+  margin-left: 0vw;
+  width: 54vw;
   height: 48vh;
 }
