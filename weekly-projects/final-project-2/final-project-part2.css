@@ -16,20 +16,33 @@ h1 {
   display: inline-block;
   background-color: black;
 }
+/*
+a:link {
+  color: #000000;
+}*/
 
-h2 {
-  position: absolute;
+a:visited {
+  color: #000000;
+}
+
+.flip{
+  transform: rotate(180deg);
+}
+
+a:link {
+  position: fixed;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight:250;
-  font-size: 8vh;
-  margin-left: 1vw;
-  margin-top: 563vh;
-  z-index: 100;
+  font-size: 7vh;
+  margin-left: 92vw;
+  margin-top: 11vh;
+  z-index: 200;
   color: white;
   display: inline-block;
   background-color: black;
 }
+
 #architecture {
   position: absolute;
   top: -1vh;
@@ -319,7 +332,21 @@ h2 {
 body {
     height: 2000px;
 }
-/*
-.top {
+.start {
     display:none;
-}*/
+}
+
+.top {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 3s;
+    animation: animat_show 3s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+        0%{opacity:0}
+        100%{opacity:1}
+}

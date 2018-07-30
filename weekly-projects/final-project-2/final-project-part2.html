@@ -6,25 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="final-project-part2.css">
   <link rel="icon" type="image/ico" href="images/favicon.ico">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-  </script>
-  <script src="sticky/jquery.sticky.js"></script>
-  <script src="jScrollability.min.js"></script>
 </head>
-<!--https://www.pixxelfactory.net/jInvertScroll/-->
-<!--https://www.hongkiat.com/blog/scrolling-effects-js-libraries/-->
+
 <body>
   <h1>blueprints</h1>
+  <a href="../weekly-projects/final-project-2/index.html">back</a>
   <br><br><br><br><br><br><br>
   <!--div class="sticky"></div-->
-  <img id="architecture" class="top" src="images/architectural-building-blueprint.jpg">
-  <img id="art" class="top" src="images/art-gallery-blueprint.jpg">
-  <img id="beinecke" class="top" src="images/beinecke-blueprint.jpg"/>
-  <img id="empire" class="top" src="images/empire-state-blueprint.jpg">
+  <!--a href="#" id="architecture" class="start">
+    <img src="images/architectural-building-blueprint.jpg"
+    onmouseover="this.src='images/architecture-now.jpg'"
+    onmouseout="this.src='images/architectural-building-blueprint.jpg'"
+    border="0" alt=""/></a-->
+  <img id="architecture" class="start" src="images/architectural-building-blueprint.jpg">
+  <img id="art" class="start" src="images/art-gallery-blueprint.jpg">
+  <img id="beinecke" class="start" src="images/beinecke-blueprint.jpg"/>
+  <img id="met" class="start" src="images/met-blueprints.jpg">
+  <img id="old-brick" class="start" src="images/old-brick-row-blueprint.jpg">
+  <img id="sterling" class="start" src="images/sterling-blueprints.jpg">
+  <img id="empire" class="start" src="images/empire-state-blueprint.jpg">
   <img id="moma" class="top" src="images/moma-blueprint.jpg">
-  <img id="met" class="top" src="images/met-blueprints.jpg">
-  <img id="old-brick" class="top" src="images/old-brick-row-blueprint.jpg">
-  <img id="sterling" class="top" src="images/sterling-blueprints.jpg">
   <img id="white-house" class="top" src="images/white-house-blueprints.jpg">
   <img id="athens-airport" class="top" src="images/athens-airport-blueprint.jpg">
   <img id="johnson-home" class="top" src="images/1st-floor-johnson-home.jpg">
@@ -59,16 +60,41 @@
   <img id="google" class="top" src="images/google-code.png">
   <img id="yahoo" class="top" src="images/yahoo-blueprint.png">
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
   <script type="text/javascript">
+
   $(window).scroll(function () {
       if ($(this).scrollTop() > 0) {
-          $('.top').fadeIn();
+        console.log($(this).scrollTop());
+          $('.start').fadeIn(3000);
       } else {
-          $('.top').fadeOut();
+          $('.start').fadeOut();
       }
   });
-  </script>
+    function showImages(el) {
+        var windowHeight = jQuery(window).height();
+        $(el).each(function(){
+            var thisPos = $(this).offset().top;
+
+            var topOfWindow = $(window).scrollTop();
+            if (topOfWindow + windowHeight - 200 > thisPos ) {
+                $(this).addClass("fadeIn");
+            }
+        });
+    }
+
+    // if the image in the window of browser when the page is loaded, show that image
+    $(document).ready(function(){
+            showImages('.top');
+    });
+
+    // if the image in the window of browser when scrolling the page, show that image
+    $(window).scroll(function() {
+            showImages('.top');
+    });
+
+</script>
 
 </body>
 
