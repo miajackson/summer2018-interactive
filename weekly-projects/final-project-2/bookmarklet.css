@@ -27,6 +27,7 @@ video, iframe {
 }
 
 h2 {
+  position: absolute
   transform: rotate(90deg);
   margin-left: 60%;
   top: 40%;
@@ -34,7 +35,7 @@ h2 {
 
 p {
   margin: 0;
-  position: fixed;
+  position: absolute;
   line-height: .75;
 }
 
