@@ -30,10 +30,10 @@ else {
 function initBookmarklet($) {
 
       // how to do randomized color
-      var colorR = Math.floor(Math.random() * 248);
-      var colorG = Math.floor(Math.random() * 248);
-      var colorB = Math.floor((Math.random() * 153) + 102);
         (window.bookmarklet = function() {
+                var colorR = Math.floor(Math.random() * 248);
+                var colorG = Math.floor(Math.random() * 248);
+                var colorB = Math.floor((Math.random() * 153) + 102);
                 //$('body').css('background-color', colorR + ',' + colorG + ',' + colorB +')');
                 $('*').css('font-family', 'Helvetica');
                 $('*').css('font-weight', '250');
