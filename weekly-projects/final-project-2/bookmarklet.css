@@ -1,0 +1,51 @@
+* {
+  color: black;
+}
+
+.blend {
+  position: fixed;
+  background: #a6badb;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height:100%;
+  width:100%;
+  z-index: 1000;
+  mix-blend-mode: color;
+}
+
+.dimension {
+  position: absolute;
+  top: 0vmin;
+  left: 85vw;
+  color: black;
+}
+
+video, iframe {
+
+}
+
+h2 {
+  transform: rotate(90deg);
+  margin-left: 60%;
+  top: 40%;
+}
+
+p {
+  margin: 0;
+  position: fixed;
+  line-height: .75;
+}
+
+#width {
+    top: .0825em;
+    left: .0625em;
+}
+
+#height {
+    transform: rotate(90deg);
+    transform-origin: center center;
+    top: .8em;
+    right: .0225em;
+}

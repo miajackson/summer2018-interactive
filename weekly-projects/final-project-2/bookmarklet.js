@@ -35,14 +35,14 @@ function initBookmarklet($) {
                 $('*').css('font-family', 'Helvetica');
                 $('*').css('font-weight', '250');
                 $('*').css('color', 'transparent');
-                $('p, h1, li, ul').css('border','4px solid #204a8e');
+                $('*').css('border','3px solid #204a8e');
+                $('h1').css('border','8px solid #204a8e');
+                $('h2, h3, h4, h5').css('border','5px solid #204a8e');
 
                 $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
-
-                //target indesign;
 
                 $('video, iframe').css('opacity', '.3');
                 $('video, iframe').css('border', '7px solid white', 'opacity');

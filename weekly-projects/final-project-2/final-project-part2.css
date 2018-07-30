@@ -21,9 +21,6 @@ a:link {
   color: #000000;
 }*/
 
-a:visited {
-  color: #000000;
-}
 
 .flip{
   transform: rotate(180deg);
@@ -41,6 +38,10 @@ a:link {
   color: white;
   display: inline-block;
   background-color: black;
+}
+
+a:visited {
+  color: #000000;
 }
 
 #architecture {
