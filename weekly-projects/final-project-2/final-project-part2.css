@@ -316,3 +316,7 @@ h2 {
   width: 54vw;
   height: 48vh;
 }
+
+.top {
+    display:none;
+}

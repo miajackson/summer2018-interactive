@@ -59,16 +59,15 @@
   <img id="google" class="top" src="images/google-code.png">
   <img id="yahoo" class="top" src="images/yahoo-blueprint.png">
 
+
   <script type="text/javascript">
-  $(document).ready(function() {
-    var myElement = $('.top');
-    $(window).on('scroll', function () {
-      var st = $(this).scrollTop();
-      myElement.css({
-         'opacity': 1 - st / 600
-      });
-   });
- });
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > 0) {
+          $('.top').fadeIn();
+      } else {
+          $('.top').fadeOut();
+      }
+  });
   </script>
 
 </body>
