@@ -60,7 +60,15 @@
   <img id="yahoo" src="images/yahoo-blueprint.png">
 
   <script type="text/javascript">
-
+  $(document).ready(function() {
+    var myElement = $('.top');
+    $(window).on('scroll', function () {
+      var st = $("#architecture").scrollTop();
+      myElement.css({
+         'opacity': 1 - st / 600
+      });
+   });
+ });
   </script>
 
 </body>
