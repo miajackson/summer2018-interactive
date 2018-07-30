@@ -8,7 +8,7 @@
 <body>
   <h1> This is my</h1>
   <a class="anything"
-    href="javascript:(function(){document.head.appendChild(document.createElement('script')).src='bookmarklet.js';})();">
+    href="javascript:(function(){document.head.appendChild(document.createElement('script')).src='https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/bookmarklet.js';})();">
     bookmarklet
   </a>
   <h2> It does some cool stuff!</h2>
@@ -18,19 +18,21 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
   <script type="text/javascript">
+
+  // how to do randomized color
   var colorR = Math.floor(Math.random() * 248);
   var colorG = Math.floor(Math.random() * 248);
   var colorB = Math.floor((Math.random() * 153) + 102);
   console.log(colorR);
   $("#bookmarklet").click(function() {
-    $('body').css('background-color', 'rgb(colorR, colorG, colorB)');
-    //'#3766b2'
+    $('body').css('background-color', 'rgb(' + colorR + ',' + colorG + ',' + colorB +')');
+    //#3766b2
     $('*').css('font-family', 'Helvetica');
     $('*').css('font-weight', '250');
     $('*').css('color', 'transparent');
     $('p, h1, li, ul').css('border','4px solid #204a8e');
 
-    $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>');
+    $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice.css" type="text/css" />');
     $("body").append('<div class="blend"></div>');
     $("body").append('<p id="width"></p>');
     $("body").append('<p id="height"></p>');

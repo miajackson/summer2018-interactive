@@ -28,8 +28,12 @@ else {
         initBookmarklet(window.jQuery);
 }
 function initBookmarklet($) {
+
+      // how to do randomized color
+      var colorR = Math.floor(Math.random() * 248);
+      var colorG = Math.floor(Math.random() * 248);
+      var colorB = Math.floor((Math.random() * 153) + 102);
         (window.bookmarklet = function() {
-                // Replace this section with your own Information Overlay script
                 $('body').css('background-color', 'rgb(colorR, colorG, colorB)');
                 //'#3766b2'
                 $('*').css('font-family', 'Helvetica');
@@ -38,7 +42,7 @@ function initBookmarklet($) {
                 $('*').css('border','3px solid #204a8e');
                 $('h1').css('border','8px solid #204a8e');
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
-
+                $("body").append.css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
                 $("body").append('<p id="width"></p>');
