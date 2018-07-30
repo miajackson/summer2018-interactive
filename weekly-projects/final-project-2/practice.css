@@ -3,8 +3,9 @@
 }
 
 .blend {
+  pointer-events: none;
   position: fixed;
-  background: #a6badb;
+  /*background: #a6badb;*/
   top:0;
   left:0;
   bottom:0;
@@ -32,8 +33,6 @@ video, iframe {
 }
 
 #height {
-    transform: rotate(90deg);
-    transform-origin: center center;
     top: .8em;
     right: .0225em;
 }

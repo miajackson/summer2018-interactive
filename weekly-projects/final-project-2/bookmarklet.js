@@ -35,7 +35,6 @@ function initBookmarklet($) {
       var colorB = Math.floor((Math.random() * 153) + 102);
         (window.bookmarklet = function() {
                 $('body').css('background-color', colorR + ',' + colorG + ',' + colorB +')');
-                //'#3766b2'
                 $('*').css('font-family', 'Helvetica');
                 $('*').css('font-weight', '250');
                 $('*').css('color', 'transparent');
@@ -44,7 +43,8 @@ function initBookmarklet($) {
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice.css" type="text/css"/>');
-                $("body").append('<div class="blend"></div>');
+                $("body").append('<div class="blend" style="background-color:'colorR + ',' + colorG + ',' + colorB +'"></div>');
+                //$('body').append('background-color', colorR + ',' + colorG + ',' + colorB +')');
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
 
@@ -60,7 +60,6 @@ function initBookmarklet($) {
                   $("#width").css("font-size", width/9 + 'px');
                   $("#height").css("font-size", height/7 + 'px');
                 }
-
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
                   fontSize();
