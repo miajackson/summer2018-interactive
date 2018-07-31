@@ -67,7 +67,6 @@ function initBookmarklet($) {
 
                 // Execute a function when the DOM is ready
                 fontSize();
-
         })();
 }
 })();
