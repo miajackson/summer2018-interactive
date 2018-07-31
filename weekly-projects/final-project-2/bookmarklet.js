@@ -43,8 +43,8 @@ function initBookmarklet($) {
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice.css" type="text/css"/>');
-                $("body").append('<div class="blend" style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>');
-                //$('body').append('background-color', colorR + ',' + colorG + ',' + colorB +')');
+                $("body").append('<div class="blend"></div>');
+                //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
 
