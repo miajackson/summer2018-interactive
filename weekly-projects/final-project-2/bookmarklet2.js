@@ -37,7 +37,7 @@ function initBookmarklet($) {
                 $('h1').css('border','8px solid #204a8e');
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
                 //$("body").css('background-color', '#a6badb');
-                $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice.css" type="text/css"/>');
+                $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
                 $('.blend').css('background-color', colorR + ',' + colorG + ',' + colorB +')');
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
