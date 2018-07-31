@@ -16,11 +16,12 @@
   mix-blend-mode: color;
 }
 
-.dimension {
-  position: absolute;
+#dimension {
+  position: fixed;
   top: 0vmin;
   left: 85vw;
-  color: white;
+  color: black;
+  font-size: .3em;
 }
 
 video, iframe {

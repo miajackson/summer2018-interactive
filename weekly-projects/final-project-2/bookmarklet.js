@@ -34,7 +34,6 @@ function initBookmarklet($) {
                 var colorR = Math.floor(Math.random() * 248);
                 var colorG = Math.floor(Math.random() * 248);
                 var colorB = Math.floor((Math.random() * 153) + 102);
-                //$('body').css('background-color', colorR + ',' + colorG + ',' + colorB +')');
                 $('*').css('font-family', 'Helvetica');
                 $('*').css('font-weight', '250');
                 $('*').css('color', 'transparent');
@@ -44,6 +43,7 @@ function initBookmarklet($) {
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
+                $('.blend').css('background-color', colorR + ',' + colorG + ',' + colorB +')');
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
@@ -55,10 +55,12 @@ function initBookmarklet($) {
                 function fontSize() {
                   width = Math.floor(window.innerWidth);
                   height = Math.floor(window.innerHeight);
-                  $("#width").html('x' + width);
-                  $("#height").html('x' + height);
-                  $("#width").css("font-size", width/9 + 'px');
-                  $("#height").css("font-size", height/7 + 'px');
+                  //$("#width").html('x' + width);
+                  //$("#height").html('x' + height);
+                  $("#dimension").html(height + 'x' + width);
+                  //$("#width").css("font-size", width/9 + 'px');
+                  //$("#height").css("font-size", height/7 + 'px');
+                  $("#dimension").css('font-size', )
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
