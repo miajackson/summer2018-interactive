@@ -53,10 +53,9 @@ a:visited {
 #arch{
   position: absolute;
   top: 43px;
-  left: 4px;
+  left: 6px;
   display: none;
   transition: .5s;
-  z-index: 100;
 }
 
 #architecture {
