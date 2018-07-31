@@ -4,7 +4,34 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <a href="#" class="button2">try me…</a>
+    <a class="button2" href="javascript:(function(){document.head.appendChild(document.createElement('script')).src='https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/bookmarklet.js';})();">try me…</a>
     <p>directions: drag the button to your bookmark bar and test on any website with a lot of words</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+    $('a').mouseover(function() {
+      $('a').fadeOut(200);
+      $("a").css('border', 'solid #a6badb')
+      $("a").css('border-width', '.15em')
+      $("a").css('background', 'white');
+    });
+    /*
+    $("a").hover(
+      function() {
+        $("a").fadeOut(200);
+        $("a").css('border', 'solid #a6badb')
+        $("a").css('border-width', '.15em')
+        $("a").css('background', 'white');
+
+      }, function() {
+        $(this).fadeIn(500);
+        $("a").css('border', 'solid black')
+        $("a").css('border-width', '.15em')
+        $("a").css('color', 'black');
+        $("a").css('background', 'white');
+      }
+    );*/
+    </script>
 </body>
 </html>

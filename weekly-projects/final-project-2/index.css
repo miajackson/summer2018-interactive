@@ -21,6 +21,10 @@ h1 {
   display: inline-block;
   background-color: black;
 }
+a:hover {
+  text-decoration: none;
+  color: rgba(0,0,0,0);
+}
 
 .button2 {
   position: fixed;
@@ -37,5 +41,5 @@ h1 {
   top: 50%;
   left: 50%;
   margin-top: -50px;
-  margin-left: -180px;
+  margin-left: -160px;
 }
