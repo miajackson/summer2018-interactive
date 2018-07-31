@@ -2,11 +2,6 @@ body {
   margin: auto;
   margin: 0px;
 }
-/*
-img: {
-  color: rgba(255, 255, 255, .5);
-  transition: .5;
-}*/
 
 * {
   font-family: "Helvetica Neue", Helvetica;
@@ -41,11 +36,6 @@ h1 {
   display: inline-block;
   background-color: black;
 }
-/*
-a:link {
-  color: #000000;
-}*/
-
 
 .flip{
   transform: rotate(180deg);
@@ -60,20 +50,11 @@ a:visited {
   text-decoration: none;
 }
 
-#on-click-arch {
-  filter:blur(.4em);
-  transition: .5s;
-}
-
-#wrapper::after img {
-  transition: .5s;
-}*/
-
-#architecture .text {
+#arch .text{
 position: absolute;
 top: 43px;
 left: 4px;
-visibility: none;
+display: none;
 transition: .5s;
 }
 
@@ -83,15 +64,6 @@ transition: .5s;
   margin-left: -1vw;
   width: 89vw;
   width: auto;
-}
-
-#wrapper:hover .text {
-visibility:visible;
-}
-
-#architecture a:hover {
-  display: contents;
-  transition: .5;
 }
 
 #art {
