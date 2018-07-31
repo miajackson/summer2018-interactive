@@ -65,10 +65,14 @@ a:visited {
   transition: .5s;
 }
 
+#wrapper::after img {
+  transition: .5s;
+}
+
 #wrapper .text {
 position: absolute;
 top: 43px;
-left: 2px;
+left: 4px;
 visibility: hidden;
 }
 
