@@ -60,20 +60,21 @@ a:visited {
   text-decoration: none;
 }
 
-#wrapper:hover img {
+/*#wrapper:hover img {
   filter:blur(.4em);
   transition: .5s;
 }
 
 #wrapper::after img {
   transition: .5s;
-}
+}*/
 
-#wrapper .text {
+#architecture .text {
 position: absolute;
 top: 43px;
 left: 4px;
 visibility: hidden;
+transition: .5s;
 }
 
 #architecture {
@@ -82,12 +83,10 @@ visibility: hidden;
   margin-left: -1vw;
   width: 89vw;
   width: auto;
-  display: none;
 }
 
 #wrapper:hover .text {
 visibility:visible;
-transition: ;
 }
 
 #architecture a:hover {
