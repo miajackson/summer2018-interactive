@@ -18,7 +18,7 @@
         <h3>Roudolph Hall</h3>
         <p> Source: Beinecke Rare Book and Manuscript Library</p>
       </div>
-      
+
   <img id="architecture" class="start" src="images/architectural-building-blueprint.jpg">
   <img id="art" class="start" src="images/art-gallery-blueprint.jpg">
   <img id="beinecke" class="start" src="images/beinecke-blueprint.jpg"/>
@@ -64,10 +64,16 @@
   </script>
   <script type="text/javascript">
   $('#architecture').click(function() {
-    $('#architecture').css('filter', 'blur(.4em)');
-    $('#architecture').css('transition', '.5s');
-    $('#arch').css('display', 'contents');
-    $('#arch').css('z-index', '100');
+    if ($('#architecture').is(":blur(.4em)")) {
+      $('#architecture').css('filter', 'none');
+      $('#architecture').css('transition', '.5s');
+      $('#arch').css('display', 'none');
+    } else {
+      $('#architecture').css('filter', 'blur(.4em)');
+      $('#architecture').css('transition', '.5s');
+      $('#arch').css('display', 'contents');
+      $('#arch').css('z-index', '100');
+    }
   });
 
   $(window).scroll(function () {
