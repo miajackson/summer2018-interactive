@@ -1,15 +1,20 @@
 body {
   margin: auto;
   margin: 0px;
-  /*overflow-x: hidden;*/
 }
 
 .button {
-  position: absolute;
-  align-self: center;
-  top: 50vh;
+  background-color: white;
+  border: 4px black;
+  /*color: #787878;*/
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  top: 50%;
   left: 50%;
-}
 
 h1 {
   position: fixed;
@@ -34,6 +39,7 @@ a:link {
 }
 
 a:link {
+  text-decoration: none;
   position: fixed;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
