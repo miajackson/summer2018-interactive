@@ -4,7 +4,8 @@ body {
 }
 
 img:hover {
-  opacity: .4;
+  color: rgba(255, 255, 255, .5);
+  transition: .5;
 }
 
 * {

@@ -4,8 +4,10 @@ p {
   white-space: pre;
   font-weight: 140;
   font-size: 5vh;
-  margin-left: 1vw;
+  left: 50%;
+  margin-left: -565px;
   color: white;
+  top: 25%;
   display: inline-block;
   background-color: black;
 }
