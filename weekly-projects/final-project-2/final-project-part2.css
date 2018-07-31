@@ -21,15 +21,14 @@ body {
 .button2 {
   position: fixed;
   background-color: white;
-  border-style:solid;
-  border: 4px black;
+  border: solid black;
+  border-width: .15em;
   color: black;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight:250;
   font-size: 9vh;
   padding: 10px 30px;
-  text-align: center;
   text-decoration: none;
   top: 50%;
   left: 50%;
@@ -59,20 +58,9 @@ a:link {
 .flip{
   transform: rotate(180deg);
 }
-/*
-a:link {
-  text-decoration: none;
-  position: fixed;
-  font-family: "Helvetica Neue", Helvetica;
-  white-space: pre;
-  font-weight:250;
-  font-size: 7vh;
-  margin-left: 92vw;
-  margin-top: 11vh;
-  z-index: 200;
+
+.button2 a:link {
   color: white;
-  display: inline-block;
-  background-color: black;
 }*/
 
 a:visited {
