@@ -12,14 +12,13 @@
   <h1>blueprinted</h1>
   <a href="index.html" class="button">back</a>
   <br><br><br><br><br><br><br>
-  <!--div id="wrapper">
-      <img id="architecture" class="start" src="images/architectural-building-blueprint.jpg">
+  <!--div id="wrapper"-->
       <div class ="text">
-        <h3>Yale School of Architecture</h3>
+        <h3>Roudolph Hall</h3>
         <p> Source: Beinecke Rare Book and Manuscript Library</p>
       </div>
-  </div-->
-
+  <!--/div-->
+  <img id="architecture" class="start" src="images/architectural-building-blueprint.jpg">
   <img id="art" class="start" src="images/art-gallery-blueprint.jpg">
   <img id="beinecke" class="start" src="images/beinecke-blueprint.jpg"/>
   <img id="met" class="start" src="images/met-blueprints.jpg">
@@ -63,9 +62,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
   </script>
   <script type="text/javascript">
-  $('#architecture').click(function() {
-    $('#architecture').css('filter', 'blur(.4em)')
-    $('#architecture .text').css('display', 'contents')
+  $('img').click(function() {
+    $('#architecture').css('filter', 'blur(.4em)');
+    $('#architecture').css('transition', '.5s');
+    $('#architecture .text').css('display', 'contents');
   });
 
   $(window).scroll(function () {

@@ -2,8 +2,8 @@ body {
   margin: auto;
   margin: 0px;
 }
-
-/*img:hover {
+/*
+img: {
   color: rgba(255, 255, 255, .5);
   transition: .5;
 }*/
@@ -60,7 +60,7 @@ a:visited {
   text-decoration: none;
 }
 
-/*#wrapper:hover img {
+#on-click-arch {
   filter:blur(.4em);
   transition: .5s;
 }
@@ -73,7 +73,7 @@ a:visited {
 position: absolute;
 top: 43px;
 left: 4px;
-visibility: hidden;
+visibility: none;
 transition: .5s;
 }
 
