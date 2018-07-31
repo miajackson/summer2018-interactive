@@ -21,7 +21,9 @@ body {
 .button2 {
   position: fixed;
   background-color: white;
+  border-style:solid;
   border: 4px black;
+  color: black;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight:250;
@@ -31,6 +33,9 @@ body {
   text-decoration: none;
   top: 50%;
   left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
 }
 
 h1 {
