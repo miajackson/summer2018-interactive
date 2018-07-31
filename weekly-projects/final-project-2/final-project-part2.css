@@ -50,12 +50,12 @@ a:visited {
   text-decoration: none;
 }
 
-#arch .text{
-position: absolute;
-top: 43px;
-left: 4px;
-display: none;
-transition: .5s;
+#arch{
+  position: absolute;
+  top: 43px;
+  left: 4px;
+  display: none;
+  transition: .5s;
 }
 
 #architecture {
