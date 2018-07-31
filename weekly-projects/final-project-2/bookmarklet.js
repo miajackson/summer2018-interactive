@@ -28,14 +28,10 @@ else {
         initBookmarklet(window.jQuery);
 }
 function initBookmarklet($) {
-
-      // how to do randomized color
         (window.bookmarklet = function() {
                 var colorR = Math.floor(Math.random() * 248);
                 var colorG = Math.floor(Math.random() * 248);
                 var colorB = Math.floor((Math.random() * 153) + 102);
-                $('*').css('font-family', 'Helvetica');
-                $('*').css('font-weight', '250');
                 $('*').css('color', 'transparent');
                 $('*').css('border','3px solid #204a8e');
                 $('h1').css('border','8px solid #204a8e');
