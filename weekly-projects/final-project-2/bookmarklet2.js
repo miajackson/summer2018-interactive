@@ -57,7 +57,8 @@ function initBookmarklet($) {
                   $("#dimension").html(height + 'x' + width);
                   //$("#width").css("font-size", width/9 + 'px');
                   //$("#height").css("font-size", height/7 + 'px');
-                  $("#dimension").css('font-size', )
+                  $("#dimension").css('font-color','black' )
+                  $("#dimension").css('font-size','20px' )
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
