@@ -89,7 +89,6 @@ a:hover:not(#image) ~ p {
 }
 
 .button2 {
-
   transition: .5s;
   position: fixed;
   background-color: white;
