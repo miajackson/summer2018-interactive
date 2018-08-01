@@ -150,6 +150,8 @@ a:hover:not(#image) ~ p {
 }*/
 
 #border {
+  display: flex;
+  justify-content: center;
   height: 100vh;
 }
 
