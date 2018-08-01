@@ -71,7 +71,7 @@ p {
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight: 140;
-  font-size: .5em;
+  /*font-size: em;*/
   /*position: absolute;*/
   color: white;
   background-color: black;
