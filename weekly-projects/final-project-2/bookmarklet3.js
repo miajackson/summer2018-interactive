@@ -52,6 +52,7 @@ function initBookmarklet($) {
                 function fontSize() {
                   width = Math.floor(window.innerWidth);
                   height = Math.floor(window.innerHeight);
+
                   //$("#width").html('x' + width);
                   //$("#height").html('x' + height);
                   $("#dimension").html(height + 'x' + width);
@@ -59,6 +60,7 @@ function initBookmarklet($) {
                   //$("#height").css("font-size", height/7 + 'px');
                   $("#dimension").css('font-color','black' )
                   $("#dimension").css('font-size','20px' )
+                  $("#dimension").css('z-index','1000' )
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
