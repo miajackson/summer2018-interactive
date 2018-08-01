@@ -7,8 +7,8 @@
 
 #center {
   text-align:center;
-  margin-left: -13em;
-  /*margin-left: -25%;*/
+  /*margin-left: -13em;*/
+  margin-left: -25%;
   height: 100vh;
 }
 #directions {
@@ -100,8 +100,8 @@ a:hover:not(#image) ~ p {
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight:250;
-  font-size: 2em;/*9vh*/
-  padding:.2em 1em;/*10px 30px*/
+  font-size: 9vh ;/*2em*/
+  padding:10px 30px;/*.2em 1em*/
   text-decoration: none;
   text-align:center;
   top: 50%;
