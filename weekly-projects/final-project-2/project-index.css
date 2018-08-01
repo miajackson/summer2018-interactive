@@ -8,9 +8,10 @@
 #center {
   text-align:center;
   margin-left: -25%;
+  height: 100vh;
 }
 #directions {
-  /*text-align: center;*/
+  text-align: center;
   font-size: .2em;
 }
 
