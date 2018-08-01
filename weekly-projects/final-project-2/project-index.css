@@ -1,8 +1,6 @@
 #directions {
-  align-items: center;
-  /*top: 85vh;
-  left: 23%;*/
-  font-size: 1.4vw;
+  text-align: center;
+  top:60vh;
 }
 
 * {
@@ -58,16 +56,16 @@ p {
 }
 
 .bookmarklet {
-  position: absolute;
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight: 140;
   font-size: 5vh;
+  /*  position: absolute;
   left: 50%;
   margin-left: -565px;
-  color: white;
   top: 25%;
-  display: inline-block;
+  display: inline-block;*/
+  color: white;
   background-color: black;
   transition: .5s;
 }
