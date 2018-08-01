@@ -1,7 +1,9 @@
 #directions {
   position: relative;
-  top: 85vh;
-  left: 23%;
+  display: flex;
+  align-items: center;
+  /*top: 85vh;
+  left: 23%;*/
   font-size: 1.4vw;
 }
 
