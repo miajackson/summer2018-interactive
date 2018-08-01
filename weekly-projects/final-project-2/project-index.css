@@ -1,10 +1,17 @@
+#center-text {
+  position:absolute;
+  text-align: center;
+  left: 10%;
+  top: 84%;
+}
+
 #center {
   text-align:center;
   margin-left: -25%;
 }
 #directions {
-  text-align: center;
-  top:60vh;
+  /*text-align: center;*/
+  font-size: .2em;
 }
 
 * {
@@ -12,7 +19,7 @@
   font-family: "Helvetica Neue", Helvetica;
   /*white-space: pre;*/
   font-weight: 140;
-  font-size: 1.05em;
+  font-size: 1.03em;
 }
 
 figure {
@@ -64,12 +71,8 @@ p {
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight: 140;
-  font-size: .9em;
-  /*  position: absolute;
-  left: 50%;
-  margin-left: -565px;
-  top: 25%;
-  display: inline-block;*/
+  font-size: .3em;
+  /*position: absolute;*/
   color: white;
   background-color: black;
   transition: .5s;
@@ -101,7 +104,11 @@ a:hover:not(#image) ~ p {
   text-decoration: none;
   text-align:center;
   top: 50%;
+  /*top: 50%;
+  left: 50%;*/
   z-index:900;
+  /*margin-top: -50px;
+  margin-left: -130px; /*167*/
 }
 /*
 #top {
