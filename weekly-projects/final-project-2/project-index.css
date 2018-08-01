@@ -1,16 +1,14 @@
 #center-text {
   position:absolute;
-  text-align: center;
-  left: 10%;
   top: 84%;
 }
-
+/*
 #center {
   text-align:center;
-  /*margin-left: -13em;*/
+  /*margin-left: -13em;
   margin-left: -25%;
   height: 100vh;
-}
+}*/
 #directions {
   text-align: center;
 }
@@ -91,6 +89,7 @@ a:hover:not(#image) ~ p {
 }
 
 .button2 {
+
   transition: .5s;
   position: fixed;
   background-color: white;
