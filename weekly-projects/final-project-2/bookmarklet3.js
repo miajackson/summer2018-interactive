@@ -29,24 +29,24 @@ else {
 }
 function initBookmarklet($) {
         (window.bookmarklet = function() {
-                var colorR = Math.floor(Math.random() * 248);
-                var colorG = Math.floor(Math.random() * 248);
-                var colorB = Math.floor((Math.random() * 153) + 102);
+                var colorB = Math.floor((Math.random() * 255));
                 $('*').css('color', 'transparent');
-                $('*').css('border','3px solid #204a8e');
-                $('h1').css('border','8px solid #204a8e');
-                $('h2, h3, h4, h5').css('border','5px solid #204a8e');
+                $('*').css('border','1px solid white');
+                <!--204a8e-->
+                $('h1').css('border','10px solid white');
+                $('h2, h3, h4, h5').css('border','5px solid white');
+                $('li, ul, a').css('border','2px solid white');
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
-                $("body").append('<div class="blend"></div>');
+                //$("body").append('<div class="blend"></div>');
                 $('.blend').css('background-color','rgb(0, 0,' + colorB +')');
                 console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
 
-                $('video, iframe').css('opacity', '.3');
-                $('video, iframe').css('border', '7px solid white', 'opacity');
+                $('video, iframe').css('opacity', '0');
+                $('video, iframe').css('border', '7px solid white');
 
                 // adds the dimensions of the page
                 function fontSize() {
