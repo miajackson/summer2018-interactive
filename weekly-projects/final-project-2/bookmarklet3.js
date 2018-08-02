@@ -40,7 +40,7 @@ function initBookmarklet($) {
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 //$("body").append('<div class="blend"></div>');
                 //$('.blend').css('background-color','rgb(0, 0,' + colorB +')');
-                console.log(colorR);
+                //console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
