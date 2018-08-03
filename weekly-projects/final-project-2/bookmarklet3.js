@@ -45,7 +45,7 @@ function initBookmarklet($) {
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
 
-                $('video, iframe, img').css('visiiblity', 'none');
+                $('video, iframe, img').css('visibility', 'none');
                 $('video, iframe, img').css('border', '7px solid white');
 
                 // adds the dimensions of the page
