@@ -13,177 +13,65 @@ h1 {
   font-size: 13vh;
 }
 
-/*#72d8c9*/
-#triangle {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-bottom: 100vh solid rgba(255, 255, 255, .85);
-	border-left: 100vmax solid transparent;
-}
-
-#home {
-  display: flex;
-  flex-shrink: 1;
-  flex-grow: 1;
-  background-color: #abcafc;
-  width: 120vmin;
-  height: 120vmin;
-  transform: rotate(45deg);
-  position: absolute;
-  top: -10%;
-}
-
-#small-square {
-  display: flex;
-  flex-shrink: 1;
-  flex-grow: 1;
-  background-color: transparent;
-  border: 1vh solid #a5a5a5;
-  width: 100vmin;
-  height: 100vmin;
-  transform: rotate(45deg);
-  position: absolute;
-  top: -2%;
-  left: 5%;
-}
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: white;
-  font-family: Courier;
-  width: 100%;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: right;
-  font-size: 16px;
-  color: #919191;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: #919191;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #72d8c9;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.previous .next {
-  position: absolute;
-  width: 40vh;
-  top: 40px;
-  bottom: 100px;
-}
-
-.previous .next a:link {
-  color: #000000;
-}
-
-.previous .next a:visited {
-  color: #000000;
-}
-
-.previous .next a:hover {
-  background-color: white;
+#square1 {
+  
 }
 
 
-.previous {
-  background-color: white;
-  font-family: Courier;
-  border: none;
-  color: #919191;
-  padding: 2vh 6vh;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3vh;
-  position: absolute;
-  border-radius: 8px;
-  top: 60%;
-  left: 13%;
+.masonry { /* Masonry container */
+  -webkit-column-count: 3;
+  -moz-column-count:3;
+  column-count: 3;
+  column-gap: -3em;
+  margin: 0em;
+  padding: 0;
+  font-size: .85em;
 }
 
-.next {
-  background-color: white;
-  font-family: Courier;
-  border: none;
-  color: #919191;
-  padding: 2vh 6vh;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3vh;
-  position: absolute;
-  border-radius: 8px;
-  top: 60%;
-  left: 37%;
+.item {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    /*padding: .em;*/
+    margin: 0 0 1em;
+    /*margin: 0 0 1.5em;*/
+    width: 100%;
+    transition: .3s;
 }
 
+.item img{max-width:100%;}
 
-.button3 {
-  background-color: white;
-  font-family: Courier;
-  border: none;
-  color: #919191;
-  padding: 2vh 6vh;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3vh;
-  position: absolute;
-  border-radius: 8px;
-  top: 60%;
-  left: 25%;
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@-webkit-keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
 }

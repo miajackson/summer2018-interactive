@@ -2,13 +2,7 @@
   position:absolute;
   top: 84%;
 }
-/*
-#center {
-  text-align:center;
-  /*margin-left: -13em;
-  margin-left: -25%;
-  height: 100vh;
-}*/
+
 #directions {
   text-align: center;
 }
@@ -62,7 +56,6 @@ h1 {
 }
 
 p {
-  /*text-align: center;*/
   margin-bottom: 60px;
 }
 
@@ -70,8 +63,7 @@ p {
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight: 140;
-  /*font-size: em;*/
-  /*position: absolute;*/
+
   color: white;
   background-color: black;
   transition: .5s;
@@ -103,49 +95,8 @@ a:hover:not(#image) ~ p {
   text-decoration: none;
   text-align:center;
   top: 50%;
-  /*top: 50%;
-  left: 50%;*/
   z-index:900;
-  /*margin-top: -50px;
-  margin-left: -130px; /*167*/
 }
-/*
-#top {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -180px;
-  margin-left: -300px;
-}
-
-#right {
-  display: inline-block;
-  transform: rotate(90deg);
-  transform-origin: center center;
-  position: relative;
-  top: 50%;
-  left: 75%;
-  z-index:900;
-  margin-top: -15px;
-  margin-left: -300px;
-}
-
-#bottom {
-  position:absolute;
-  text-align: center;
-  top: 86%;
-  left: 50%;
-  z-index:900;
-  margin-top: -50px;
-  margin-left: -235px;
-}
-
-#left {
-  transform: rotate(90deg);
-  transform-origin: center center;
-  position:absolute;
-  left:30%;
-}*/
 
 #border {
   display: flex;
@@ -168,11 +119,6 @@ h4{
     animation: animat_show 3s;
     visibility: visible !important;
 }
-/*
-figure {
-  transition: .8s;
-}*/
-
 
 .masonry { /* Masonry container */
   -webkit-column-count: 3;
@@ -182,27 +128,13 @@ figure {
   margin: 0em;
   padding: 0;
   font-size: .85em;
-  /*-webkit-column-count: 3;
-  -moz-column-count:3;
-  column-count: 3;
-  -webkit-column-gap: 1em;
-  -moz-column-gap: 1em;
-  column-gap: 1em;
-  margin: 1.5em;
-  padding: 0;
-  -moz-column-gap: .8em;
-  -webkit-column-gap: .8em;
-  column-gap: .8em;
-  font-size: .85em;*/
 }
 
 .item {
     position: relative;
     display: inline-block;
     background: #fff;
-    /*padding: .em;*/
     margin: 0 0 1em;
-    /*margin: 0 0 1.5em;*/
     width: 100%;
     transition: .3s;
 }
