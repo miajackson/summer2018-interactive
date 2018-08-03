@@ -1,7 +1,7 @@
 * {
   color: white;
 }
-/*
+
 .blend {
   pointer-events: none;
   position: fixed;
@@ -12,9 +12,9 @@
   right:0;
   height:100%;
   width:100%;
-  z-index: 9999999;
+  z-index: 99999;
   mix-blend-mode: color;
-}*/
+}
 
 #dimension {
   position: fixed;
