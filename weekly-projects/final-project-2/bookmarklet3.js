@@ -33,15 +33,17 @@ function initBookmarklet($) {
                 $('*').css('color', 'transparent');
                 $('*').css('border','1px solid white');
                 $('h1').css('border','10px solid white');
-                $('body').css('background-color', 'rgb(0, 0,' + colorB +')');
+                //$('body').css('background-color', 'rgb(0, 0,' + colorB +')');
                 $('h2, h3, h4, h5').css('border','5px solid white');
                 $('li, ul, a').css('border','2px solid white');
+                $('hr').css('border','1px solid white');
+
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
                 $('.blend').css('background-color','rgb(0, 0,' + colorB +')');
                 //console.log(colorR);
-                //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>')');
+                $('body').append(style="background-color:0, 0," + colorB +""></div>')');
                 $("body").append('<p id="width"></p>');
                 $("body").append('<p id="height"></p>');
 
