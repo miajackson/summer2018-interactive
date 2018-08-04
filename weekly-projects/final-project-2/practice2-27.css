@@ -5,7 +5,7 @@
 .blend {
   pointer-events: none;
   position: fixed;
-  background: #a6badb;
+  /*background: #a6badb;*/
   top:0;
   left:0;
   bottom:0;
