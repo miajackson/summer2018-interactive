@@ -49,7 +49,7 @@ function initBookmarklet($) {
                 $('video, iframe, img').css('visibility', 'none');
                 $('video, iframe, img').css('border', '7px solid white');*/
 
-                var colorB = Math.floor((Math.random() * 153) + 102);
+                var colorB = Math.floor((Math.random() * 255));
                 $('*').css('color', 'transparent');
                 $('*').css('border','3px solid #204a8e');
                 $('h1').css('border','9px solid #204a8e');
@@ -66,20 +66,20 @@ function initBookmarklet($) {
                 $('video, iframe').css('opacity', '0');
                 $('video, iframe').css('border', '7px solid white');
 
-
                 // adds the dimensions of the page
                 function fontSize() {
-                  width = Math.floor(window.innerWidth);
-                  height = Math.floor(window.innerHeight);
+                  var width = Math.floor(window.innerWidth);
+                  var height = Math.floor(window.innerHeight);
 
                   //$("#width").html('x' + width);
                   //$("#height").html('x' + height);
+                  $("#dimension").css('font-color','black' )
+                  $("#dimension").css('font-size','3em' )
+                  $("#dimension").css('z-index','1000' )
                   $("#dimension").html(height + 'x' + width);
                   //$("#width").css("font-size", width/9 + 'px');
-                  //$("#height").css("font-size", height/7 + 'px');
-                  $("#dimension").css('font-color','black' )
-                  $("#dimension").css('font-size','20px' )
-                  $("#dimension").css('z-index','1000' )
+
+
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
