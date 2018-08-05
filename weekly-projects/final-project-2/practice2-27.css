@@ -23,7 +23,6 @@
   color: black;
   font-size: .3em;
   background-color: white;
-  z-index: 999999;
   color: white;
 
 }
@@ -31,7 +30,6 @@
 video, iframe {
 
 }
-
 
 p {
   margin: 0;

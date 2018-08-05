@@ -26,7 +26,53 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
           } else {
           initBookmarklet(window.jQuery);
           }
+
           function initBookmarklet($) {
+        (window.bookmarklet = function() {
+                var colorR = Math.floor(Math.random() * 248);
+                var colorG = Math.floor(Math.random() * 248);
+                var colorB = Math.floor((Math.random() * 153) + 102);
+                $('*').css('color', 'transparent');
+                $('*').css('border','3px solid #204a8e');
+                $('h1').css('border','8px solid #204a8e');
+                $('h2, h3, h4, h5').css('border','5px solid #204a8e');
+                //$("body").css('background-color', '#a6badb');
+                $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
+                $("body").append('<div class="blend"></div>');
+                $('.blend').css('background-color','rgb(0, 0,' + colorB +')');
+                console.log(colorR);
+                //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
+                $("body").append('<p id="width"></p>');
+                $("body").append('<p id="height"></p>');
+
+                $('video, iframe').css('opacity', '.3');
+                $('video, iframe').css('border', '7px solid white', 'opacity');
+
+                // adds the dimensions of the page
+                function fontSize() {
+                  width = Math.floor(window.innerWidth);
+                  height = Math.floor(window.innerHeight);
+
+                  //$("#width").html('x' + width);
+                  //$("#height").html('x' + height);
+                  $("#dimension").html(height + 'x' + width);
+                  //$("#width").css("font-size", width/9 + 'px');
+                  //$("#height").css("font-size", height/7 + 'px');
+                  $("#dimension").css('font-color','black' )
+                  $("#dimension").css('font-size','20px' )
+                  $("#dimension").css('z-index','1000' )
+                }
+                // Trigger a function whenever the window is resized
+                $(window).resize(function() {
+                  fontSize();
+                });
+
+                // Execute a function when the DOM is ready
+                fontSize();
+        })();
+}
+})();
+          /*function initBookmarklet($) {
             (window.bookmarklet = function() {
                 /*var colorB = Math.floor((Math.random() * 255));
                 $('*').css('color', 'transparent');
@@ -46,7 +92,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $("body").append('<p id="height"></p>');
 
                 $('video, iframe, img').css('visibility', 'none');
-                $('video, iframe, img').css('border', '7px solid white');*/
+                $('video, iframe, img').css('border', '7px solid white');
 
                 var colorB = Math.floor((Math.random() * 255));
                 $('*').css('color', 'transparent');
@@ -81,4 +127,4 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 fontSize();
             })();
 }
-})();
+})();*/

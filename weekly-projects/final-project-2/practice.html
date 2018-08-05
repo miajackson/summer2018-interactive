@@ -35,37 +35,30 @@ frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   var colorB = Math.floor((Math.random() * 153) + 102);
   console.log(colorR);
   $("#bookmarklet").click(function() {
-    $('body').css('background-color', 'rgb(colorR, colorG, colorB)');
-    //'#3766b2'
-    $('*').css('font-family', 'Helvetica');
-    $('*').css('font-weight', '250');
+    var colorB = Math.floor((Math.random() * 255));
     $('*').css('color', 'transparent');
-    $('p, h1, li, ul').css('border','4px solid #204a8e');
-
-    $('head').append('<link rel="stylesheet" href="practice.css" type="text/css"/>');
+    $('*').css('border','3px solid #204a8e');
+    $('h1').css('border','9px solid #204a8e');
+    $('h2, h3, h4, h5').css('border','6px solid #204a8e');
+    $('hr').css('border','1px solid white');
+    //$("body").css('background-color', '#a6badb');
+    $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
     $("body").append('<div class="blend"></div>');
-    $("body").append('<p id="width"></p>');
-    $("body").append('<p id="height"></p>');
+    $('.blend').css('background-color','rgb(0, 0,' + colorB +')');
+    //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
+    $('video, iframe').css('opacity', '0');
+    $('video, iframe').css('border', '7px solid white');
 
-    //DESCRIPTION: Deletes all the images from graphic frames. If no frames are selected, it removes all images from every frame in your document!
-
-//target indesign;
-
-
-    $('video, iframe').css('opacity', '.3');
-    $('video, iframe').css('border', '7px solid white', 'opacity');
-
-
-    // adds the dimensions of the page
-    function fontSize() {
-      width = Math.floor(window.innerWidth);
-      height = Math.floor(window.innerHeight);
-      $("#width").html('x' + width);
-      $("#height").html('x' + height);
-      $("#width").css("font-size", width/9 + 'px');
-      $("#height").css("font-size", height/7 + 'px');
+  function fontSize() {
+      var width = Math.floor(window.innerWidth);
+      var height = Math.floor(window.innerHeight);
+      //$("#width").html('x' + width);
+      //$("#height").html('x' + height);
+      $("#dimension").html(height + 'x' + width);
+      $("#dimension").css('font-color','black' )
+      $("#dimension").css('font-size','3em' )
+      //$("#width").css("font-size", width/9 + 'px');
     }
-
     // Trigger a function whenever the window is resized
     $(window).resize(function() {
       fontSize();
@@ -73,9 +66,7 @@ frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
     // Execute a function when the DOM is ready
     fontSize();
-
   });
-
   </script>
 </body>
 </html>
