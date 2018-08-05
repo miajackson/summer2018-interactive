@@ -63,9 +63,9 @@ p {
   font-family: "Helvetica Neue", Helvetica;
   white-space: pre;
   font-weight: 140;
-
+  background-color: #a6badb;
   color: white;
-  background-color: black;
+  /*background-color: black;*/
   transition: .5s;
 }
 
@@ -76,7 +76,7 @@ a:hover:not(#image) /*#border*/ {
 }
 
 a:hover:not(#image) ~ p {
-  background: #a6badb;
+  /*background: #a6badb;*/
   color: #a6badb;
 }
 
