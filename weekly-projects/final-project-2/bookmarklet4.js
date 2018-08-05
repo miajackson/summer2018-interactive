@@ -32,22 +32,30 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 var colorR = Math.floor(Math.random() * 248);
                 var colorG = Math.floor(Math.random() * 248);
                 var colorB = Math.floor((Math.random() * 153) + 102);
+
                 $('*').css('color', 'transparent');
                 //#a6badb
                 $('*').css('border','3px solid #204a8e');
-                $('h1').css('border','8px solid #204a8e');
+                $('*').css('z-index','99999');
+                $('*').css('border','1px solid white');
+                $('h1').css('border','10px solid #204a8e');
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
+                $('li, ul, a').css('border','2px solid white');
+                $('hr').css('border','1px solid white');
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
                 //$('.blend').css('background-color','rgb(0, 0,' + colorB +')');
                 console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
-                $("body").append('<p id="width"></p>');
-                $("body").append('<p id="height"></p>');
+                //$("body").append('<p id="width"></p>');
+                //$("body").append('<p id="height"></p>');
 
-                $('video, iframe').css('opacity', '.3');
+                $('video, iframe').css('opacity', '0');
                 $('video, iframe').css('border', '7px solid white', 'opacity');
+
+
+                $("body").append('<p id="dimension"></p>');
 
                 // adds the dimensions of the page
                 function fontSize() {
