@@ -70,16 +70,12 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 function fontSize() {
                   var width = Math.floor(window.innerWidth);
                   var height = Math.floor(window.innerHeight);
-
                   //$("#width").html('x' + width);
                   //$("#height").html('x' + height);
+                  $("#dimension").html(height + 'x' + width);
                   $("#dimension").css('font-color','black' )
                   $("#dimension").css('font-size','3em' )
-                  $("#dimension").css('z-index','1000' )
-                  $("#dimension").html(height + 'x' + width);
                   //$("#width").css("font-size", width/9 + 'px');
-
-
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
