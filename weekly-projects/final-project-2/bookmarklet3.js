@@ -104,8 +104,6 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
 
                 // Execute a function when the DOM is ready
                 fontSize();
-              });
-              
             })();
 }
 })();
