@@ -64,12 +64,12 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
 
                 // adds the dimensions of the page
 
-                $(document).ready(function() {
+
 
                 // This function gets the window's width and height
                 // There are two divs in the HTML that display those values
                 // Their font-size also updates
-              /*  function fontSize() {
+                /*function fontSize() {
                   $("body").append('<p id="dimension"></p>');
                   width = Math.floor(window.innerWidth);
                   height = Math.floor(window.innerHeight);
