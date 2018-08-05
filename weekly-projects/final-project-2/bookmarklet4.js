@@ -33,6 +33,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 var colorG = Math.floor(Math.random() * 248);
                 var colorB = Math.floor((Math.random() * 153) + 102);
                 $('*').css('color', 'transparent');
+                //#a6badb
                 $('*').css('border','3px solid #204a8e');
                 $('h1').css('border','8px solid #204a8e');
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
