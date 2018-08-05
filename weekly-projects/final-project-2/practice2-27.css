@@ -32,12 +32,21 @@ video, iframe {
 
 }
 
+
+p {
+  margin: 0;
+  position: fixed;
+  line-height: .75;
+}
+
 #width {
-    top: .0825em;
+    top: .0625em;
     left: .0625em;
 }
 
 #height {
-    top: .8em;
-    right: .0225em;
+    transform: rotate(90deg);
+    transform-origin: center center;
+    top: .5em;
+    right: .0625em;
 }

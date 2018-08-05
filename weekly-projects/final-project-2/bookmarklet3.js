@@ -9,26 +9,25 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
         var script = document.createElement("script");
         script.src = "https://ajax.googleapis.com/ajax/libs/jquery/" + version + "/jquery.min.js";
         script.onload = script.onreadystatechange = function(){
-                if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
-                        done = true;
-                        initBookmarklet(window.jQuery);
-                }
-                else {
-                  console.log('error loading');
-                }
-              };
-              document.getElementsByTagName("head")[0].appendChild(script);
-              if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
-    console.log(':::');
-}
+          if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
+            done = true;
+            initBookmarklet(window.jQuery);
+          } else {
+            console.log('error loading');
+          }
+          };
+          document.getElementsByTagName("head")[0].appendChild(script);
+          if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
+            console.log(':::');
+          }
           else {
-              console.log('jquery loaded');
-            }
-} else {
+            console.log('jquery loaded');
+          }
+          } else {
           initBookmarklet(window.jQuery);
-        }
-        function initBookmarklet($) {
-        (window.bookmarklet = function() {
+          }
+          function initBookmarklet($) {
+            (window.bookmarklet = function() {
                 /*var colorB = Math.floor((Math.random() * 255));
                 $('*').css('color', 'transparent');
                 $('*').css('border','1px solid white');
@@ -67,7 +66,32 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $('video, iframe').css('border', '7px solid white');
 
                 // adds the dimensions of the page
+
+                $(document).ready(function() {
+
+                // This function gets the window's width and height
+                // There are two divs in the HTML that display those values
+                // Their font-size also updates
                 function fontSize() {
+                  width = Math.floor(window.innerWidth);
+                  height = Math.floor(window.innerHeight);
+                  $("#width").html(width);
+                  $("#height").html(height);
+                  $("#width").css("font-size", width/3.3 + 'px');
+                  $("#height").css("font-size", height/4.3 + 'px');
+                }
+
+              	// Trigger a function whenever the window is resized
+                $(window).resize(function() {
+                	fontSize();
+                });
+
+                // Execute a function when the DOM is ready
+                fontSize();
+              });
+
+
+                /*function fontSize() {
                   var width = Math.floor(window.innerWidth);
                   var height = Math.floor(window.innerHeight);
                   //$("#width").html('x' + width);
