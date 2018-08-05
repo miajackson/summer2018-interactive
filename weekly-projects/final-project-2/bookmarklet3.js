@@ -13,21 +13,21 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                         done = true;
                         initBookmarklet(window.jQuery);
                 }
-    else {
-        console.log('error loading');
-    }
-        };
-        document.getElementsByTagName("head")[0].appendChild(script);
-if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
+                else {
+                  console.log('error loading');
+                }
+              };
+              document.getElementsByTagName("head")[0].appendChild(script);
+              if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
     console.log(':::');
 }
-else {
-    console.log('jquery loaded');
-}
+          else {
+              console.log('jquery loaded');
+            }
 } else {
-        initBookmarklet(window.jQuery);
-}
-function initBookmarklet($) {
+          initBookmarklet(window.jQuery);
+        }
+        function initBookmarklet($) {
         (window.bookmarklet = function() {
                 /*var colorB = Math.floor((Math.random() * 255));
                 $('*').css('color', 'transparent');
@@ -88,6 +88,6 @@ function initBookmarklet($) {
 
                 // Execute a function when the DOM is ready
                 fontSize();
-        })();
-}
-})();
+                })();
+              }
+            })();
