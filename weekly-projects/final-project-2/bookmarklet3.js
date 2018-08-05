@@ -59,9 +59,6 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $("body").append('<div class="blend"></div>');
                 $('.blend').css('background-color','rgb(0, 0,' + colorB +')');
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
-                $("body").append('<p id="width"></p>');
-                $("body").append('<p id="height"></p>');
-
                 $('video, iframe').css('opacity', '0');
                 $('video, iframe').css('border', '7px solid white');
 
@@ -73,7 +70,8 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 // There are two divs in the HTML that display those values
                 // Their font-size also updates
                 function fontSize() {
-                  width = Math.floor(window.innerWidth);
+                  $("body").append('<p id="dimension"></p>');
+                /*  width = Math.floor(window.innerWidth);
                   height = Math.floor(window.innerHeight);
                   $("#width").html(width);
                   $("#height").html(height);
@@ -88,10 +86,8 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
 
                 // Execute a function when the DOM is ready
                 fontSize();
-              });
-
-
-                /*function fontSize() {
+              });*/
+              function fontSize() {
                   var width = Math.floor(window.innerWidth);
                   var height = Math.floor(window.innerHeight);
                   //$("#width").html('x' + width);
