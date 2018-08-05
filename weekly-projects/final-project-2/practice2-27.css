@@ -18,14 +18,14 @@
 
 #dimension {
   position: fixed;
-  top: 0vmin;
-  left: 85vw;
+  top: .5em;
+  left: .0625em;
   color: black;
   font-size: .3em;
   background-color: white;
   z-index: 999999;
   color: white;
-  
+
 }
 
 video, iframe {
