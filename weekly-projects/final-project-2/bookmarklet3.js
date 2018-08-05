@@ -62,31 +62,6 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $('video, iframe').css('opacity', '0');
                 $('video, iframe').css('border', '7px solid white');
 
-                // adds the dimensions of the page
-
-
-
-                // This function gets the window's width and height
-                // There are two divs in the HTML that display those values
-                // Their font-size also updates
-                /*function fontSize() {
-                  $("body").append('<p id="dimension"></p>');
-                  width = Math.floor(window.innerWidth);
-                  height = Math.floor(window.innerHeight);
-                  $("#width").html(width);
-                  $("#height").html(height);
-                  $("#width").css("font-size", width/3.3 + 'px');
-                  $("#height").css("font-size", height/4.3 + 'px');
-                }
-
-              	// Trigger a function whenever the window is resized
-                $(window).resize(function() {
-                	fontSize();
-                });
-
-                // Execute a function when the DOM is ready
-                fontSize();
-              });*/
               function fontSize() {
                   var width = Math.floor(window.innerWidth);
                   var height = Math.floor(window.innerHeight);
