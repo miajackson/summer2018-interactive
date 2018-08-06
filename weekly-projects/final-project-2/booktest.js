@@ -34,8 +34,8 @@ function initBookmarklet($) {
                 var colorB = Math.floor((Math.random() * 153) + 102);
                 $('*').css('color', 'transparent');
                 $('*').css('border','1px solid #a6badb');
-                $('h1').css('border','8px solid #a6badb');
-                $('h2, h3, h4, h5').css('border','5px solid #a6badb');
+                $('h1').css('border','8px solid white');
+                $('h2, h3, h4, h5').css('border','5px solid white');
                 $('li, ul').css('border','2px solid white');
                 $('hr').css('border','1.5px solid white');
 
