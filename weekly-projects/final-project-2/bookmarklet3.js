@@ -42,16 +42,14 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $('hr').css('border','1px solid white');
                 $("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
-                $("body").append('<div class="blend"></div>');
+                //$("body").append('<div class="blend"></div>');
                 $('.blend').css('background-color','#a6badb');
-                console.log(colorR);
-                //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
+                $('body').append(style="background-color:#a6badb></div>"));
                 //$("body").append('<p id="width"></p>');
                 //$("body").append('<p id="height"></p>');
 
                 $('video, iframe').css('border', '7px solid white', 'opacity');
                 $('video, iframe').css('visibility', 'none');
-
 
                 $("body").append('<p id="dimension"></p>');
 
