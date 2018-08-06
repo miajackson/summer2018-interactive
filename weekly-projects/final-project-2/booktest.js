@@ -42,6 +42,7 @@ function initBookmarklet($) {
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
+                $('body').css('background-color','#a6badb');
                 $('.blend').css('background-color','#a6badb');
                 console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
