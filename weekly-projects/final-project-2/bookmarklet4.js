@@ -34,7 +34,6 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 var colorB = Math.floor((Math.random() * 153) + 102);
 
                 $('*').css('color', 'transparent');
-                //#a6badb
                 $('*').css('border','3px solid #204a8e');
                 $('*').css('border','1px solid white');
                 $('h1').css('border','10px solid #204a8e');
@@ -50,8 +49,8 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 //$("body").append('<p id="width"></p>');
                 //$("body").append('<p id="height"></p>');
 
-                $('video, iframe').css('opacity', '0');
                 $('video, iframe').css('border', '7px solid white', 'opacity');
+                $('video, iframe').css('visibility', 'none');
 
 
                 $("body").append('<p id="dimension"></p>');

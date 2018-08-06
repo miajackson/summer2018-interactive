@@ -12,17 +12,17 @@
   right:0;
   height:100%;
   width:100%;
-  z-index: 9999;
+  z-index: 999999;
   mix-blend-mode: color;
 }
 
 #dimension {
   position: fixed;
-  top: 2vmin;
-  left: 85vw;
+  top: .2em;
+  left: 2em;
   color: white;
   background-color: black;
-  font-size: 10em;
+  font-size: 3em;
   z-index: 9999999999999;
 }
 
