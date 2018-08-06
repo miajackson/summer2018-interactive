@@ -33,16 +33,16 @@ function initBookmarklet($) {
                 var colorG = Math.floor(Math.random() * 248);
                 var colorB = Math.floor((Math.random() * 153) + 102);
                 $('*').css('color', 'transparent');
-                $('*').css('border','1px solid #a6badb');
-                $('h1').css('border','8px solid white');
-                $('h2, h3, h4, h5').css('border','5px solid white');
+                $('*').css('border','1px solid #bacff2');
+                $('h1').css('border','8px solid #bacff2');
+                $('h2, h3, h4, h5').css('border','5px solid #bacff2');
                 $('li, ul').css('border','2px solid white');
                 $('hr').css('border','1.5px solid white');
 
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
-                $('body').css('background-color','#a6badb');
+                //$('body').css('background-color','#a6badb');
                 $('.blend').css('background-color','#a6badb');
                 console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
