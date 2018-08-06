@@ -193,5 +193,22 @@ h1 {
 
 blink {
   animation-duration: 1s;
+}
 
+
+.button {
+  transition: .5s;
+  position: fixed;
+  background-color: white;
+  border: solid black;
+  border-width: .15em;
+  color: black;
+  font-family: "Courier";
+  font-size: 7vh ;/*2em*/
+  padding:10px 30px;/*.2em 1em*/
+  text-decoration: none;
+  text-align:center;
+  top: 80%;
+  right:20%;
+  z-index:900;
 }
