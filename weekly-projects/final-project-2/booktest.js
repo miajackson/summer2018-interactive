@@ -49,9 +49,8 @@ function initBookmarklet($) {
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
                 $("body").append('<p id="dimension"></p>');
 
-                $('video, iframe').css('opacity', '.3');
+                $('video, iframe').css('opacity', '.1');
                 $('video, iframe').css('border', '7px solid white', 'opacity');
-
                 // adds the dimensions of the page
                 function fontSize() {
                   width = Math.floor(window.innerWidth);
