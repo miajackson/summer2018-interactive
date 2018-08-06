@@ -79,3 +79,9 @@ a:hover {
   color: rgba(0,0,255,0);
   text-decoration: none;
 }
+
+center {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
