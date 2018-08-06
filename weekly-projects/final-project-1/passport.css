@@ -13,9 +13,11 @@ img {
 h1 {
   position:static;
   font-size: 70px;
-  text-align: center;
   font-family: "Times New Roman", arial;
   top: 20%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 #text {
