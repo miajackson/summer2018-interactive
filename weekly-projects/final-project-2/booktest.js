@@ -35,10 +35,10 @@ function initBookmarklet($) {
                 $('*').css('color', 'transparent');
                 $('*').css('border','1px solid white');
                 //#bacff2
-                $('h1').css('border','9px solid white');
-                $('h2, h3, h4, h5').css('border','6px solid white');
-                $('li, ul').css('border','3px solid white');
-                $('hr').css('border','1.5px solid white');
+                $('h1').css('border','9px solid #bacff2');
+                $('h2, h3, h4, h5').css('border','6px solid #bacff2');
+                $('li, ul').css('border','3px solid #bacff2');
+                $('hr').css('border','1.5px solid #bacff2');
 
                 //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
