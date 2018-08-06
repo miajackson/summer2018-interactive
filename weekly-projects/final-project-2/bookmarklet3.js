@@ -44,7 +44,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 //$("body").append('<div class="blend"></div>');
                 $('.blend').css('background-color','#a6badb');
-                $('body').append(style="background-color:#a6badb></div>"));
+                $('body').append('style="background-color:#a6badb"></div>'));
                 //$("body").append('<p id="width"></p>');
                 //$("body").append('<p id="height"></p>');
 
