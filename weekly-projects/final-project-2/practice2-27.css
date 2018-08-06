@@ -20,9 +20,10 @@
   position: fixed;
   top: 0vmin;
   left: 85vw;
-  color: black;
-  font-size: .3em;
-  z-index: 99999;
+  color: white;
+  background-color: black
+  font-size: .5em;
+  z-index: 9999999999999;
 }
 
 video, iframe {
