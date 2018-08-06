@@ -19,15 +19,11 @@
 #dimension {
   position: fixed;
   top: .2em;
-  left: 2em;
+  right: 2em;
   color: white;
   background-color: black;
   font-size: 3em;
   z-index: 9999999999999;
-}
-
-video, iframe {
-
 }
 
 #width {
