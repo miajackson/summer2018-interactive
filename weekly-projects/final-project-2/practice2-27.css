@@ -38,55 +38,8 @@
     right: .0225em;
 }
 
-/*
-
-* {
-  color: white;
-}
-
-.blend {
-  pointer-events: none;
-  position: fixed;
-  background: #a6badb;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  height:100%;
-  width:100%;
-  z-index: 99999;
-  mix-blend-mode: blend;
-}
-
-#dimension {
-  position: fixed;
-  top: .5em;
-  left: .0625em;
-  color: black;
-  font-size: .3em;
-  background-color: white;
-  color: white;
-
-}
-
-video, iframe {
-
-}
-
 p {
   margin: 0;
   position: fixed;
   line-height: .75;
-}
-
-#width {
-    top: .0625em;
-    left: .0625em;
-}
-
-#height {
-    transform: rotate(90deg);
-    transform-origin: center center;
-    top: .5em;
-    right: .0625em;
 }
