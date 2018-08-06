@@ -40,10 +40,8 @@ function initBookmarklet($) {
                 $('li, ul').css('border','3px solid #bacff2');
                 $('hr').css('border','1.5px solid #bacff2');
 
-                //$("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
-                //$('body').css('background-color','#a6badb');
                 $('.blend').css('background-color','#a6badb');
                 console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
@@ -55,15 +53,11 @@ function initBookmarklet($) {
                 function fontSize() {
                   width = Math.floor(window.innerWidth);
                   height = Math.floor(window.innerHeight);
-
-                  //$("#width").html('x' + width);
-                  //$("#height").html('x' + height);
                   $("#dimension").html(height + 'x' + width);
-                  //$("#width").css("font-size", width/9 + 'px');
-                  //$("#height").css("font-size", height/7 + 'px');
+
                   $("#dimension").css('font-color','black' )
                   $("#dimension").css('font-size','20px' )
-                  $("#dimension").css('z-index','1000' )
+                  $("#dimension").css('z-index','999999999999' )
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
