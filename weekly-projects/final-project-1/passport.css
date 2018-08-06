@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 32.5vw; /*418px*/
+  width: 32.5vw; 
   height: auto;
   position: static;
   left: 20%;
