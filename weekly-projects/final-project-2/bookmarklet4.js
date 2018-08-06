@@ -36,7 +36,6 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $('*').css('color', 'transparent');
                 //#a6badb
                 $('*').css('border','3px solid #204a8e');
-                $('*').css('z-index','99999');
                 $('*').css('border','1px solid white');
                 $('h1').css('border','10px solid #204a8e');
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
