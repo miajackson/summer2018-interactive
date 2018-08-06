@@ -35,9 +35,9 @@ function initBookmarklet($) {
                 $('*').css('color', 'transparent');
                 $('*').css('border','1px solid white');
                 //#bacff2
-                $('h1').css('border','8px solid white');
-                $('h2, h3, h4, h5').css('border','5px solid white');
-                $('li, ul').css('border','2px solid white');
+                $('h1').css('border','9px solid white');
+                $('h2, h3, h4, h5').css('border','6px solid white');
+                $('li, ul').css('border','3px solid white');
                 $('hr').css('border','1.5px solid white');
 
                 //$("body").css('background-color', '#a6badb');
