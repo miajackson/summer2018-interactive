@@ -33,9 +33,9 @@ function initBookmarklet($) {
                 var colorG = Math.floor(Math.random() * 248);
                 var colorB = Math.floor((Math.random() * 153) + 102);
                 $('*').css('color', 'transparent');
-                $('*').css('border','1px solid #204a8e');
-                $('h1').css('border','8px solid #204a8e');
-                $('h2, h3, h4, h5').css('border','5px solid #204a8e');
+                $('*').css('border','1px solid white');
+                $('h1').css('border','8px solid white');
+                $('h2, h3, h4, h5').css('border','5px solid white');
                 $('li, ul').css('border','2px solid white');
                 $('hr').css('border','1.5px solid white');
 
