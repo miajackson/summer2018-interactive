@@ -18,10 +18,10 @@
 
 #dimension {
   position: fixed;
-  top: 0vmin;
+  top: 5vmin;
   left: 85vw;
   color: white;
-  background-color: black
+  background-color: black;
   font-size: .5em;
   z-index: 9999999999999;
 }
