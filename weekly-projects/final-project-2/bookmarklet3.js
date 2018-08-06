@@ -40,10 +40,10 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                 $('h2, h3, h4, h5').css('border','5px solid #204a8e');
                 $('li, ul, a').css('border','2px solid white');
                 $('hr').css('border','1px solid white');
-                //$("body").css('background-color', '#a6badb');
+                $("body").css('background-color', '#a6badb');
                 $('head').append('<link rel="stylesheet" href="https://miajackson.github.io/summer2018-interactive/weekly-projects/final-project-2/practice2-27.css" type="text/css"/>');
                 $("body").append('<div class="blend"></div>');
-                //$('.blend').css('background-color','rgb(0, 0,' + colorB +')');
+                $('.blend').css('background-color','#a6badb');
                 console.log(colorR);
                 //$('body').append(style="background-color:' + colorR + ',' + colorG + ',' + colorB'"></div>'));
                 //$("body").append('<p id="width"></p>');
@@ -60,11 +60,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                   width = Math.floor(window.innerWidth);
                   height = Math.floor(window.innerHeight);
 
-                  //$("#width").html('x' + width);
-                  //$("#height").html('x' + height);
                   $("#dimension").html(height + 'x' + width);
-                  //$("#width").css("font-size", width/9 + 'px');
-                  //$("#height").css("font-size", height/7 + 'px');
                   $("#dimension").css('z-index','99999999999' )
                 }
                 // Trigger a function whenever the window is resized
