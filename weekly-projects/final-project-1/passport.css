@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  width: 418px;
+  width: 33%; /*418px*/
   height: auto;
   position: static;
   left: 20%;
@@ -17,6 +17,7 @@ h1 {
   top: 20%;
   display: flex;
   justify-content: center;
+  height: 100vh;
 }
 
 #text {
