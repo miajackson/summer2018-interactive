@@ -66,9 +66,7 @@ if (window.jQuery === undefined || window.jQuery.fn.jquery < version) {
                   $("#dimension").html(height + 'x' + width);
                   //$("#width").css("font-size", width/9 + 'px');
                   //$("#height").css("font-size", height/7 + 'px');
-                  $("#dimension").css('font-color','black' )
-                  $("#dimension").css('font-size','20px' )
-                  $("#dimension").css('z-index','1000' )
+                  $("#dimension").css('z-index','99999999999' )
                 }
                 // Trigger a function whenever the window is resized
                 $(window).resize(function() {
